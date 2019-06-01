@@ -1,18 +1,6 @@
-18:03:22 **** Incremental Build of configuration Debug for project Nested Telplate Classes ****
+18:38:54 **** Incremental Build of configuration Debug for project Nested Telplate Classes ****
 make all 
-Building file: ../src/Nested Telplate Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Nested Telplate Classes.d" -MT"src/Nested\ Telplate\ Classes.d" -o "src/Nested Telplate Classes.o" "../src/Nested Telplate Classes.cpp"
-In file included from ../src/Nested Telplate Classes.cpp:11:0:
-../src/ring.h: In instantiation of ‘ring<T>::iterator& ring<T>::iterator::operator++(int) [with T = std::__cxx11::basic_string<char>]’:
-../src/Nested Telplate Classes.cpp:36:76:   required from here
-../src/ring.h:86:3: warning: no return statement in function returning non-void [-Wreturn-type]
-   }
-   ^
-Finished building: ../src/Nested Telplate Classes.cpp
- 
-Building target: Nested Telplate Classes
-Invoking: GCC C++ Linker
-g++  -o "Nested Telplate Classes"  ./src/Nested\ Telplate\ Classes.o   
-Finished building target: Nested Telplate Classes
- 
+make: Nothing to be done for 'all'.
+18:38:57 **** Incremental Build of configuration Debug for project Nested Telplate Classes ****
+make all 
+make: Nothing to be done for 'all'.

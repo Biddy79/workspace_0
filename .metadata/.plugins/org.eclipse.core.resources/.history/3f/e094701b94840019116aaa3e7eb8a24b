@@ -69,9 +69,17 @@ public:
 
 	}
 
-	iterator& operator++(int) {
+	//Post fix
+	/*
+	 * This differs from what's in at least the original
+	 * version of the tutorial video. Really we should
+	 * return a version of the iterator as it was
+	 * before it was modified, for consistency with
+	 * the usual behaviour of the postfix operator.
+	 */
+	iterator operator++(int) {
 
-		iterator& old = *this;
+		iterator old = *this;
 		++(*this);
 		return old;
 	}
