@@ -1,0 +1,72 @@
+/*
+ * ring.h
+ *
+ *  Created on: 19 May 2019
+ *      Author: adam
+ */
+
+#ifndef RING_H_
+#define RING_H_
+
+#include<iostream>
+
+using namespace std;
+
+template<class T>
+class ring {
+private:
+	T *m_value;
+	int m_size;
+	int m_pos;
+
+public:
+	class iterator;
+
+public:
+
+	ring(int size):m_value(NULL), m_size(size), m_pos(0) {
+		m_value = new T[size];
+	}
+
+	void add(T obj) {
+
+			m_value[m_pos++] = obj;
+
+	    	if (m_pos == m_size) {
+			 m_pos = 0;
+		}
+
+	}
+
+	int size() {
+		return m_size;
+	}
+
+	T &get(int pos) {
+		return m_value[pos];
+	}
+
+	~ring() {
+		delete[] m_value;
+	}
+
+};
+
+template<class T>
+class ring<T>::iterator {
+public:
+	void print() {
+		cout << "Hello " << T() << endl;
+	};
+
+	T begin(){
+		return m_value[0];
+	}
+
+	T end(){
+		return m_value[NULL];
+	}
+};
+
+#endif  RING_H_
+
