@@ -7,18 +7,21 @@
 //============================================================================
 
 #include <iostream>
+#include "ring.h"
+
 using namespace std;
 
 int main() {
 
-    /*ring<string> textring;
+
+  /*  ring<string> textring;
 
 	textring.add("One");
 	textring.add("Two");
 	textring.add("Three");
-	textring.add("Four");*/
+	textring.add("Four");
 
-
+*/
 
 
 	return 0;
