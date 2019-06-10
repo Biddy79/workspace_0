@@ -1,6 +1,6 @@
-17:02:36 **** Incremental Build of configuration Debug for project Nested Telplate Classes ****
+13:43:48 **** Incremental Build of configuration Debug for project Nested Telplate Classes ****
 make all 
 make: Nothing to be done for 'all'.
 
-17:02:36 Build Finished. 0 errors, 0 warnings. (took 412ms)
+13:43:48 Build Finished. 0 errors, 0 warnings. (took 361ms)
 

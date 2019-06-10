@@ -8,20 +8,21 @@
 
 #include <iostream>
 #include "ring.h"
-
 using namespace std;
 
 int main() {
 
+	    ring<string> textring(3);
 
-  /*  ring<string> textring;
+		textring.add("One");
+		textring.add("Two");
+		textring.add("Three");
+		textring.add("Four");
 
-	textring.add("One");
-	textring.add("Two");
-	textring.add("Three");
-	textring.add("Four");
+	    for(int i=0; i<textring.size(); i++){
+	    	cout << textring.get(i) << endl;
+	    }
 
-*/
 
 
 	return 0;
