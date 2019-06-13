@@ -53,7 +53,7 @@ public:
 		}
 	}
 
-	T &get(int pos) {
+	T& get(int pos) {
 		return m_values[pos];
 	}
 };

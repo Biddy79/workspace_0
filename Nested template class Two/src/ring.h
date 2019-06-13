@@ -8,7 +8,7 @@
 #ifndef RING_H_
 #define RING_H_
 
-	template<class T>
+template<class T>
 class ring{
 private:
 	T* m_values;
@@ -17,6 +17,9 @@ private:
 
 
 public:
+
+    class iterator;
+
 	ring(int size):m_values(nullptr), m_size(size), m_pos(0){
 		 m_values  = new T[size];
 	}
@@ -40,13 +43,55 @@ public:
 		return m_size;
 	}
 
-	T& get(int i){
-		return m_values[i];
+	T& get(int pos){
+		return m_values[pos];
 	}
+
+	// iterator functions
+
+	iterator begin(){
+			return iterator(*this, 0);
+		}
+
+	iterator end(){
+		return iterator(*this, m_size);
+	}
+
 
 };
 
+template <class T>
+class ring<T>::iterator{
+private:
+	ring& m_ring;
+	int m_pos;
 
+public:
+	iterator(ring& ring_ref, int pos):m_ring(ring_ref),m_pos(pos){
+
+	}
+
+
+	T& operator*(){
+		return m_ring.get(m_pos);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
 
 
 

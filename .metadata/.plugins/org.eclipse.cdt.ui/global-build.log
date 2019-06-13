@@ -1,6 +1,15 @@
-14:01:13 **** Incremental Build of configuration Debug for project Nested template class Two ****
+21:10:28 **** Incremental Build of configuration Debug for project Nested template class Two ****
 make all 
-make: Nothing to be done for 'all'.
-14:01:15 **** Incremental Build of configuration Debug for project Nested template class Two ****
+Building file: ../src/Nested template class Two.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Nested template class Two.d" -MT"src/Nested\ template\ class\ Two.d" -o "src/Nested template class Two.o" "../src/Nested template class Two.cpp"
+Finished building: ../src/Nested template class Two.cpp
+ 
+Building target: Nested template class Two
+Invoking: GCC C++ Linker
+g++  -o "Nested template class Two"  ./src/Nested\ template\ class\ Two.o   
+Finished building target: Nested template class Two
+ 
+21:10:29 **** Incremental Build of configuration Debug for project Nested template class Two ****
 make all 
 make: Nothing to be done for 'all'.
