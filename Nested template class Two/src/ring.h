@@ -60,7 +60,7 @@ public:
 
 };
 
-template <class T>
+template<class T>
 class ring<T>::iterator{
 private:
 	ring& m_ring;
@@ -71,23 +71,30 @@ public:
 
 	}
 
+	bool operator!=(const iterator &other) const {
+			return !(this->m_pos == other.m_pos);
+		}
+
+	bool operator==(const iterator& other) const{
+		return (m_pos == other.m_pos);
+	}
+
+	iterator& operator++(){
+		m_pos++;
+		return *this;
+	}
+
+	iterator& operator++(int){
+		iterator& old = *this;
+		++m_pos;
+		//++(*this);
+
+		return old;
+	}
 
 	T& operator*(){
 		return m_ring.get(m_pos);
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -78,7 +78,7 @@ public:
 
 	//prefix
 	iterator& operator++() {
-		++m_pos;
+		m_pos++;
 
 		return *this;
 	}
