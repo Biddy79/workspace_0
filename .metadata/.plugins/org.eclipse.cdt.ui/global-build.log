@@ -1,15 +1,12 @@
-14:54:31 **** Incremental Build of configuration Debug for project Nested template class Two ****
+18:41:38 **** Incremental Build of configuration Debug for project Fstring main ****
 make all 
-Building file: ../src/Nested template class Two.cpp
+Building file: ../src/Fstring.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Nested template class Two.d" -MT"src/Nested\ template\ class\ Two.d" -o "src/Nested template class Two.o" "../src/Nested template class Two.cpp"
-Finished building: ../src/Nested template class Two.cpp
- 
-Building target: Nested template class Two
-Invoking: GCC C++ Linker
-g++  -o "Nested template class Two"  ./src/Nested\ template\ class\ Two.o   
-Finished building target: Nested template class Two
- 
-14:54:36 **** Incremental Build of configuration Debug for project Nested template class Two ****
-make all 
-make: Nothing to be done for 'all'.
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fstring.d" -MT"src/Fstring.o" -o "src/Fstring.o" "../src/Fstring.cpp"
+../src/Fstring.cpp: In constructor ‘Fstring::Fstring(const char&)’:
+../src/Fstring.cpp:49:9: error: returning a value from a constructor
+  return this;
+         ^~~~
+src/subdir.mk:28: recipe for target 'src/Fstring.o' failed
+make: *** [src/Fstring.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
