@@ -16,7 +16,7 @@ int main() {
 
 	Fstring text = "Hello";
 
-	//cout << text << endl;
+	cout << text << endl;
 	cout << text.getStrlen() << endl;
 
 

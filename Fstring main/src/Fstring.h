@@ -8,12 +8,12 @@
 #ifndef FSTRING_H_
 #define FSTRING_H_
 
-#include <ostream>
+#include <iostream>
 
 class Fstring {
 private:
 	int strlen;
-	char* strarr;
+    char* strarr;
 	char* c_strarr;
 
 
@@ -25,10 +25,10 @@ public:
 
 	//operator overloaded functions
 
-	/*needs work!!!
-	friend std::ostream& operator<<(std::ostream&, Fstring& str);
 
-*/
+	friend std::ostream& operator<<(std::ostream& os, const Fstring& str);
+
+
 	int getStrlen();
 
     //Destructor

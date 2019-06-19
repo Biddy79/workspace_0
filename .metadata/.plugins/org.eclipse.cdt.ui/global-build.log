@@ -1,12 +1,15 @@
-18:41:38 **** Incremental Build of configuration Debug for project Fstring main ****
+12:01:51 **** Incremental Build of configuration Debug for project Fstring main ****
 make all 
 Building file: ../src/Fstring.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fstring.d" -MT"src/Fstring.o" -o "src/Fstring.o" "../src/Fstring.cpp"
-../src/Fstring.cpp: In constructor ‘Fstring::Fstring(const char&)’:
-../src/Fstring.cpp:49:9: error: returning a value from a constructor
-  return this;
-         ^~~~
-src/subdir.mk:28: recipe for target 'src/Fstring.o' failed
-make: *** [src/Fstring.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
+Finished building: ../src/Fstring.cpp
+ 
+Building target: Fstring main
+Invoking: GCC C++ Linker
+g++  -o "Fstring main"  ./src/Fstring\ main.o ./src/Fstring.o   
+Finished building target: Fstring main
+ 
+12:02:01 **** Incremental Build of configuration Debug for project Fstring main ****
+make all 
+make: Nothing to be done for 'all'.
