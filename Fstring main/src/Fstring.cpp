@@ -9,22 +9,22 @@
 #include <iostream>
 
 
-Fstring::Fstring():strlen(0),strarr(nullptr),c_strarr(nullptr){
+Fstring::Fstring():strlen(0),strarr(nullptr){
 
 }
 
 Fstring::Fstring(const char* str){
-	c_strarr = nullptr;
 	int index = 0;
 
-	if(str != 0){
+	if(str != nullptr){
 
 	   //set length of strarr = to str by creating new array
 	   // REMEBER TO DECLEAR HERE OR IT WILL BE OUT OF SCOPE
 	   strarr = new char[index];
 
        //populate strarr with chars from str until nullptr reached
-	   while(str[index] != '\0'){
+	     while(str[index] != '\0'){
+
 
 	   //strarr = new char[index];
 
@@ -33,8 +33,7 @@ Fstring::Fstring(const char* str){
 	   //std::cout << strarr[index] << std::endl;
 	   //works here why?? big lesson it was declared out of scope
 
-
-		index++;
+    	index++;
 
 	}
 
@@ -50,17 +49,12 @@ Fstring::Fstring(const char* str){
 	if(str == 0){
 		 strlen = 0;
 		 strarr = 0;
-		 c_strarr = 0;
-
 	}
-
-
-
 }
 
-Fstring::Fstring(const char& fstr){
-
-}
+Fstring::Fstring(const Fstring& rhs){
+		*this = rhs;
+	}
 
 
 int Fstring::getStrlen(){
@@ -77,7 +71,13 @@ std::ostream& operator<<(std::ostream& os, const Fstring& str){
 }
 
 
+const Fstring& Fstring::operator=(const Fstring& rhs){
 
+	  strlen = rhs.strlen;
+	  strarr = rhs.strarr;
+
+      return *this;
+}
 
 
 
