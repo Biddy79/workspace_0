@@ -20,7 +20,5 @@ int main() {
 	cout << text.getStrlen() << endl;
 
 
-
-
 	return 0;
 }

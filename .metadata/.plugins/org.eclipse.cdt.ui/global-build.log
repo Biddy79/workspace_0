@@ -1,15 +1,15 @@
-12:01:51 **** Incremental Build of configuration Debug for project Fstring main ****
+19:37:55 **** Incremental Build of configuration Debug for project c++ 11 Initialization ****
 make all 
-Building file: ../src/Fstring.cpp
+Building file: ../src/c++ 11 Initialization.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fstring.d" -MT"src/Fstring.o" -o "src/Fstring.o" "../src/Fstring.cpp"
-Finished building: ../src/Fstring.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++ 11 Initialization.d" -MT"src/c++\ 11\ Initialization.d" -o "src/c++ 11 Initialization.o" "../src/c++ 11 Initialization.cpp"
+Finished building: ../src/c++ 11 Initialization.cpp
  
-Building target: Fstring main
+Building target: c++ 11 Initialization
 Invoking: GCC C++ Linker
-g++  -o "Fstring main"  ./src/Fstring\ main.o ./src/Fstring.o   
-Finished building target: Fstring main
+g++  -o "c++ 11 Initialization"  ./src/c++\ 11\ Initialization.o   
+Finished building target: c++ 11 Initialization
  
-12:02:01 **** Incremental Build of configuration Debug for project Fstring main ****
+19:37:58 **** Incremental Build of configuration Debug for project c++ 11 Initialization ****
 make all 
 make: Nothing to be done for 'all'.
