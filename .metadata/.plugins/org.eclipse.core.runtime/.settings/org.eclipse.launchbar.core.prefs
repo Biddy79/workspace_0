@@ -1,7 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+<<<<<<< HEAD
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:Nested Telplate Classes Debug,org.eclipse.launchbar.core.descriptorType.default\:Nested Template class Two,org.eclipse.launchbar.core.descriptorType.default\:Test 0,org.eclipse.launchbar.core.descriptorType.default\:Advanced for loops,org.eclipse.launchbar.core.descriptorType.default\:Nested Telplate Classes,org.eclipse.launchbar.core.descriptorType.default\:Nested template class Two,org.eclipse.launchbar.core.descriptorType.default\:c++ 11 Initialization,org.eclipse.launchbar.core.descriptorType.default\:Fstring main
+=======
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Fstring,org.eclipse.launchbar.core.descriptorType.default\:c++ 11 Initialization,org.eclipse.launchbar.core.descriptorType.default\:Test 0,org.eclipse.launchbar.core.descriptorType.default\:Advanced for loops,org.eclipse.launchbar.core.descriptorType.default\:Nested Telplate Classes,org.eclipse.launchbar.core.descriptorType.default\:Nested template class Two,org.eclipse.launchbar.core.descriptorType.default\:Fstring main
+>>>>>>> 987677c5a35f5188103282514c234d5b2f1e3092
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Fstring/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Fstring/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

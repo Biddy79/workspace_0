@@ -19,6 +19,13 @@ int main() {
 	cout << text << endl;
 	cout << text.getStrlen() << endl;
 
+	Fstring text2("Welcome");
+	cout << text2 << endl;
+	cout << text2.getStrlen() << endl;
+
+	Fstring text3;
+	text3 = text2;
+	cout << text3 << endl;
 
 	return 0;
 }

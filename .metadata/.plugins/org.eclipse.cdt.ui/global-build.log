@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 19:37:55 **** Incremental Build of configuration Debug for project c++ 11 Initialization ****
 make all 
 Building file: ../src/c++ 11 Initialization.cpp
@@ -25,3 +26,8 @@ Invoking: GCC C++ Linker
 g++  -o "Fstring main"  ./src/Fstring\ main.o ./src/Fstring.o   
 Finished building target: Fstring main
  
+=======
+19:02:22 **** Incremental Build of configuration Debug for project Fstring main ****
+make all 
+make: Nothing to be done for 'all'.
+>>>>>>> 987677c5a35f5188103282514c234d5b2f1e3092

@@ -14,19 +14,19 @@ class Fstring {
 private:
 	int strlen;
     char* strarr;
-	char* c_strarr;
+
 
 
 public:
 	//constructors
 	Fstring();
 	Fstring(const char* str);
-	Fstring(const char& fstr);
+	Fstring(const Fstring& rhs);
+
 
 	//operator overloaded functions
-
-
 	friend std::ostream& operator<<(std::ostream& os, const Fstring& str);
+	const Fstring& operator=(const Fstring& rhs);
 
 
 	int getStrlen();
