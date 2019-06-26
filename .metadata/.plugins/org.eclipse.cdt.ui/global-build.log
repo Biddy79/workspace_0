@@ -1,33 +1,15 @@
-<<<<<<< HEAD
-19:37:55 **** Incremental Build of configuration Debug for project c++ 11 Initialization ****
+18:46:43 **** Incremental Build of configuration Debug for project Initializer list ****
 make all 
-Building file: ../src/c++ 11 Initialization.cpp
+Building file: ../src/Initializer list.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++ 11 Initialization.d" -MT"src/c++\ 11\ Initialization.d" -o "src/c++ 11 Initialization.o" "../src/c++ 11 Initialization.cpp"
-Finished building: ../src/c++ 11 Initialization.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu++11 -MMD -MP -MF"src/Initializer list.d" -MT"src/Initializer\ list.d" -o "src/Initializer list.o" "../src/Initializer list.cpp"
+Finished building: ../src/Initializer list.cpp
  
-Building target: c++ 11 Initialization
+Building target: Initializer list
 Invoking: GCC C++ Linker
-g++  -o "c++ 11 Initialization"  ./src/c++\ 11\ Initialization.o   
-Finished building target: c++ 11 Initialization
+g++  -o "Initializer list"  ./src/Initializer\ list.o ./src/Test.o   
+Finished building target: Initializer list
  
-19:37:58 **** Incremental Build of configuration Debug for project c++ 11 Initialization ****
+18:46:46 **** Incremental Build of configuration Debug for project Initializer list ****
 make all 
 make: Nothing to be done for 'all'.
-19:46:58 **** Incremental Build of configuration Debug for project Fstring main ****
-make all 
-Building file: ../src/Fstring main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fstring main.d" -MT"src/Fstring\ main.d" -o "src/Fstring main.o" "../src/Fstring main.cpp"
-Finished building: ../src/Fstring main.cpp
- 
-Building target: Fstring main
-Invoking: GCC C++ Linker
-g++  -o "Fstring main"  ./src/Fstring\ main.o ./src/Fstring.o   
-Finished building target: Fstring main
- 
-=======
-19:02:22 **** Incremental Build of configuration Debug for project Fstring main ****
-make all 
-make: Nothing to be done for 'all'.
->>>>>>> 987677c5a35f5188103282514c234d5b2f1e3092

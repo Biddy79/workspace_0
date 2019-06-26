@@ -393,12 +393,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__FLT128_EPSILON__" value="1.92592994438723585305597794258492732e-34F128">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__FLT128_HAS_DENORM__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1323,6 +1317,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__LDBL_DECIMAL_DIG__" value="1.92592994438723585305597794258492732e-34F128">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__LDBL_DENORM_MIN__" value="3.64519953188247460252840593361941982e-4951L">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1719,6 +1719,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__STDC_ISO_10646__" value="201706L">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -2044,12 +2050,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__has_include_next(STR)" value="__has_include_next__(STR)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__k8" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
