@@ -24,8 +24,7 @@ public:
 	class iterator;
 
 public:
-	ring(int size) :
-			m_pos(0), m_size(size), m_values(nullptr) {
+	ring(int size):m_pos(0), m_size(size), m_values(nullptr) {
 		m_values = new T[size];
 	}
 

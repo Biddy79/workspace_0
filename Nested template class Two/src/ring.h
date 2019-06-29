@@ -8,6 +8,8 @@
 #ifndef RING_H_
 #define RING_H_
 
+#include <initializer_list>
+
 template<class T>
 class ring{
 private:

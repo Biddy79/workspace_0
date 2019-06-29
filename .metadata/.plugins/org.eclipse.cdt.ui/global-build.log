@@ -1,15 +1,15 @@
-18:46:43 **** Incremental Build of configuration Debug for project Initializer list ****
+17:08:48 **** Incremental Build of configuration Debug for project Object Initialization ****
 make all 
-Building file: ../src/Initializer list.cpp
+Building file: ../src/Object Initialization.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu++11 -MMD -MP -MF"src/Initializer list.d" -MT"src/Initializer\ list.d" -o "src/Initializer list.o" "../src/Initializer list.cpp"
-Finished building: ../src/Initializer list.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Object Initialization.d" -MT"src/Object\ Initialization.d" -o "src/Object Initialization.o" "../src/Object Initialization.cpp"
+Finished building: ../src/Object Initialization.cpp
  
-Building target: Initializer list
+Building target: Object Initialization
 Invoking: GCC C++ Linker
-g++  -o "Initializer list"  ./src/Initializer\ list.o ./src/Test.o   
-Finished building target: Initializer list
+g++  -o "Object Initialization"  ./src/Object\ Initialization.o   
+Finished building target: Object Initialization
  
-18:46:46 **** Incremental Build of configuration Debug for project Initializer list ****
+17:08:52 **** Incremental Build of configuration Debug for project Object Initialization ****
 make all 
 make: Nothing to be done for 'all'.

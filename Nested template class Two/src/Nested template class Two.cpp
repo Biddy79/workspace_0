@@ -19,6 +19,8 @@ int main() {
 
 	    ring<string> textring(3);
 
+	   // textring.add({"one", "two", "three"});
+
 		textring.add("One");
 		textring.add("Two");
 		textring.add("Three");
