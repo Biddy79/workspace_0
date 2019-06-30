@@ -16,25 +16,18 @@ private:
 
 
 public:
-	//standard constructor
-	Test(){};
 
-	//initialised constructor sets value to id but dose not set value for name
-	Test(int id):id(id){};
+	//default and delete key words are used to show which constructors will
+	//compile
+
+	//standard constructor
+	Test() = default;
 
 	//copy constructor
-	Test(const Test&  other){
-		this->id = other.id; this->name = other.name;
-
-	};
+	Test(const Test& other) = delete;
 
 	//overloaded operator=
-	Test& operator=(const Test& rhs){
-		this->id = rhs.id;
-		this->name = rhs.name;
-
-		return *this;
-	};
+	Test& operator=(const Test& rhs) = default;
 
 	//prints out id and name
 	void print(){
@@ -49,17 +42,20 @@ int main() {
 	Test t1;
 	t1.print();
 
-	//uses initialised constructor setting id to 20
-	Test t2(20);
+
+	/*uses copy constructor to set t3 = t1 but this no longer compiles has
+	 * the delete key word as been used above!!
+	Test t2(t1);
 	t2.print();
+    */
 
-	//uses copy constructor to set t3 = t1
-	Test t3(t1);
-	t3.print();
+	//uses overloaded operator = to set t4 = t1 this compile as the default key
+	//word as been used above!!
+	Test t4;
+	t4 = t1;
+	t4.print();
 
-	//uses overloaded operator= to set t4 = t2
-    Test t4 = t2;   //or t4 = t2;
-    t4.print();
+
 
 
 

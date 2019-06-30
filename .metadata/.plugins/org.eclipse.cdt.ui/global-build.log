@@ -1,8 +1,8 @@
-17:08:48 **** Incremental Build of configuration Debug for project Object Initialization ****
+11:33:19 **** Incremental Build of configuration Debug for project Object Initialization ****
 make all 
 Building file: ../src/Object Initialization.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Object Initialization.d" -MT"src/Object\ Initialization.d" -o "src/Object Initialization.o" "../src/Object Initialization.cpp"
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu++11 -MMD -MP -MF"src/Object Initialization.d" -MT"src/Object\ Initialization.d" -o "src/Object Initialization.o" "../src/Object Initialization.cpp"
 Finished building: ../src/Object Initialization.cpp
  
 Building target: Object Initialization
@@ -10,6 +10,3 @@ Invoking: GCC C++ Linker
 g++  -o "Object Initialization"  ./src/Object\ Initialization.o   
 Finished building target: Object Initialization
  
-17:08:52 **** Incremental Build of configuration Debug for project Object Initialization ****
-make all 
-make: Nothing to be done for 'all'.
