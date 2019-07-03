@@ -1,12 +1,12 @@
-11:33:19 **** Incremental Build of configuration Debug for project Object Initialization ****
+13:37:02 **** Incremental Build of configuration Debug for project Lambda expressions ****
 make all 
-Building file: ../src/Object Initialization.cpp
+Building file: ../src/Lambda expressions.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=gnu++11 -MMD -MP -MF"src/Object Initialization.d" -MT"src/Object\ Initialization.d" -o "src/Object Initialization.o" "../src/Object Initialization.cpp"
-Finished building: ../src/Object Initialization.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lambda expressions.d" -MT"src/Lambda\ expressions.d" -o "src/Lambda expressions.o" "../src/Lambda expressions.cpp"
+Finished building: ../src/Lambda expressions.cpp
  
-Building target: Object Initialization
+Building target: Lambda expressions
 Invoking: GCC C++ Linker
-g++  -o "Object Initialization"  ./src/Object\ Initialization.o   
-Finished building target: Object Initialization
+g++  -o "Lambda expressions"  ./src/Lambda\ expressions.o   
+Finished building target: Lambda expressions
  
