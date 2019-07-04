@@ -24,6 +24,13 @@ void testGreet(void (*greet)(string name) ){
 
 }
 
+//function that takes a function and returns a value (in this case a double)!
+void runDivide(double (*pDivide)(double num1, double num2) ){
+	auto sum = pDivide(9, 3);
+
+	cout << sum << endl;
+
+}
 
 int main() {
 
@@ -51,6 +58,17 @@ int main() {
 
  //////////////////////lambda expressions with return types //////////////////////
 
+		auto pDivide = [](double num1, double num2) -> double {
+			if(num2 == 0.0){
+				return 0;
+			}
+
+			return num1/num2;
+		};
+
+		cout << pDivide(10.5, 12.5) << endl;
+
+		runDivide(pDivide);
 
 	return 0;
 }
