@@ -1,4 +1,4 @@
-20:00:26 **** Incremental Build of configuration Debug for project Lambda expressions ****
+20:01:44 **** Incremental Build of configuration Debug for project Lambda expressions ****
 make all 
 Building file: ../src/Lambda expressions.cpp
 Invoking: GCC C++ Compiler
@@ -10,6 +10,6 @@ Invoking: GCC C++ Linker
 g++  -o "Lambda expressions"  ./src/Lambda\ expressions.o   
 Finished building target: Lambda expressions
  
-20:00:33 **** Incremental Build of configuration Debug for project Lambda expressions ****
+20:01:45 **** Incremental Build of configuration Debug for project Lambda expressions ****
 make all 
 make: Nothing to be done for 'all'.

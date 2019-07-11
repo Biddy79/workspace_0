@@ -32,6 +32,7 @@ void runDivide(double (*pDivide)(double num1, double num2) ){
 
 }
 
+
 int main() {
 
 	////////////////basic ladbda expression/////////////////////////
@@ -69,6 +70,40 @@ int main() {
 		cout << pDivide(10.5, 12.5) << endl;
 
 		runDivide(pDivide);
+
+//////////////////////////lambda captureing expressions///////////////////////
+
+		//////local variables////////////
+		int one {1};
+		int two {2};
+		int three {3};
+
+
+///////////////capture onw and two by value/////////////////not captureing three!!!//
+///////////////note the () at the end will run the lambda expresion//////////
+		[one,two](){cout << one << " " << two << endl;}();
+
+/////////////capture all local variabels by value///////////////////////
+		[=](){cout << one << " " << two << " " << three << endl;}();
+
+///////////capture one and two by reference but three by value/////////////
+////////// so we can now change one and two as they are pased by reference but not three//
+	[&, three](){one = 4; two = 5; cout << one << " " << two << " " << three << endl;}();
+
+///////we can have multiple combinations in the [] of a labda to captuer local veriabels//
+/////// now only two is pased by reference and the rest are passed by value/////
+	[=, &two](){two = 0; cout << one << " " << two << " " << three << endl;}();
+
+/////////here we have all passed by reference/////////////////////
+	[&](){one = 1; two = 2; three = 3; cout << one << " " << two << " " << three << endl;}();
+
+/////////defult capture all local variabels by value//////////////////////
+////////so if variabels are just named (like one below) they will be passed by value////
+////////and as I have used & the rest will be passed by reference
+	[&, one](){two = 10; three = 20; cout << one << " " << two << " " << three << endl;}();
+
+
+
 
 	return 0;
 }

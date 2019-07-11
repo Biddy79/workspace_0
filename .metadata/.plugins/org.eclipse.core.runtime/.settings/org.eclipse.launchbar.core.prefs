@@ -8,6 +8,7 @@ configDescList=org.eclipse.launchbar.core.descriptorType.default\:Nested Telplat
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Fstring/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Fstring/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Lambda\ expressions/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Nested\ Telplate\ Classes\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Nested\ Telplate\ Classes\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Nested\ Telplate\ Classes/activeLaunchMode=run
