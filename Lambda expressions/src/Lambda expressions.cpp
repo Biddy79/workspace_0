@@ -29,9 +29,40 @@ void runDivide(double (*pDivide)(double num1, double num2) ){
 	auto sum = pDivide(9, 3);
 
 	cout << sum << endl;
-
 }
 
+///////////passing class Test variabels with this//////////////////
+class Test{
+private:
+	int one {1};
+	int two {2};
+
+public:
+	void run(){
+		////local variabels//////
+		int three {3};
+		int four {4};
+		//////crated lambda inside of run function this as acsees to priavte variabels/////
+		auto pTest = [this, three, four](){
+			///by default one and two are passed by refrence and therfor can be changed
+			one = 400;
+			two = 300;
+			//////can not change three and for as they are passed by value///
+			//////three = 1000; four = 600; will not work !!!!
+			//////to make that work you would have to pass by refrence using &
+			/////[&, this]///////
+				cout << one << endl;
+				cout << two << endl;
+				cout << three << endl;
+				cout << four << endl;
+
+			};
+		////running labda here!!! /////
+		 pTest();
+	}
+
+
+};
 
 int main() {
 
@@ -102,8 +133,13 @@ int main() {
 ////////and as I have used & the rest will be passed by reference
 	[&, one](){two = 10; three = 20; cout << one << " " << two << " " << three << endl;}();
 
+/////////////////passing this to lambda classe above!!!!//////////////////////////
+	Test t1;
+	t1.run();
+
 
 
 
 	return 0;
+
 }

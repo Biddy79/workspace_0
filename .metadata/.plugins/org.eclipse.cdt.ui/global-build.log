@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 20:37:15 **** Incremental Build of configuration Debug for project Function Types ****
+=======
+13:40:39 **** Incremental Build of configuration Debug for project Lambda expressions ****
+>>>>>>> 7d462de5dd09a2dfd464f776135310a0695be60b
 make all 
 Building file: ../src/Function Types.cpp
 Invoking: GCC C++ Compiler
@@ -14,3 +18,9 @@ Invoking: GCC C++ Linker
 g++  -o "Function Types"  ./src/Function\ Types.o   
 Finished building target: Function Types
  
+<<<<<<< HEAD
+=======
+13:40:42 **** Incremental Build of configuration Debug for project Lambda expressions ****
+make all 
+make: Nothing to be done for 'all'.
+>>>>>>> 7d462de5dd09a2dfd464f776135310a0695be60b
