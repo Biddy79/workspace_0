@@ -1,15 +1,16 @@
-20:01:44 **** Incremental Build of configuration Debug for project Lambda expressions ****
+20:37:15 **** Incremental Build of configuration Debug for project Function Types ****
 make all 
-Building file: ../src/Lambda expressions.cpp
+Building file: ../src/Function Types.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lambda expressions.d" -MT"src/Lambda\ expressions.d" -o "src/Lambda expressions.o" "../src/Lambda expressions.cpp"
-Finished building: ../src/Lambda expressions.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Function Types.d" -MT"src/Function\ Types.d" -o "src/Function Types.o" "../src/Function Types.cpp"
+../src/Function Types.cpp: In lambda function:
+../src/Function Types.cpp:24:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    [size](string test){return test.size() == size;});
+                               ~~~~~~~~~~~~^~~~~~~
+Finished building: ../src/Function Types.cpp
  
-Building target: Lambda expressions
+Building target: Function Types
 Invoking: GCC C++ Linker
-g++  -o "Lambda expressions"  ./src/Lambda\ expressions.o   
-Finished building target: Lambda expressions
+g++  -o "Function Types"  ./src/Function\ Types.o   
+Finished building target: Function Types
  
-20:01:45 **** Incremental Build of configuration Debug for project Lambda expressions ****
-make all 
-make: Nothing to be done for 'all'.
