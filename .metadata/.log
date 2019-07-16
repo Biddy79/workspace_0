@@ -4501,3 +4501,19 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Lambda expres
 !ENTRY org.eclipse.cdt.core 1 0 2019-07-13 13:01:26.003
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 3.79 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 >>>>>>> 7d462de5dd09a2dfd464f776135310a0695be60b
+!SESSION 2019-07-16 17:29:07.005 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-07-16 17:29:12.909
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-16 17:29:18.655
+!MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 1 headers) in 0.291 sec: 37 declarations; 58 references; 3 unresolved inclusions; 0 syntax errors; 27 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-16 17:29:23.233
+!MESSAGE Indexed 'Range based loops' (1 sources, 180 headers) in 4.46 sec: 14,918 declarations; 24,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

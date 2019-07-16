@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-20:37:15 **** Incremental Build of configuration Debug for project Function Types ****
-=======
-13:40:39 **** Incremental Build of configuration Debug for project Lambda expressions ****
->>>>>>> 7d462de5dd09a2dfd464f776135310a0695be60b
+17:53:51 **** Incremental Build of configuration Debug for project Function Types ****
 make all 
 Building file: ../src/Function Types.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Function Types.d" -MT"src/Function\ Types.d" -o "src/Function Types.o" "../src/Function Types.cpp"
 ../src/Function Types.cpp: In lambda function:
-../src/Function Types.cpp:24:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../src/Function Types.cpp:41:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
     [size](string test){return test.size() == size;});
                                ~~~~~~~~~~~~^~~~~~~
 Finished building: ../src/Function Types.cpp
@@ -18,9 +14,6 @@ Invoking: GCC C++ Linker
 g++  -o "Function Types"  ./src/Function\ Types.o   
 Finished building target: Function Types
  
-<<<<<<< HEAD
-=======
-13:40:42 **** Incremental Build of configuration Debug for project Lambda expressions ****
+17:53:54 **** Incremental Build of configuration Debug for project Function Types ****
 make all 
 make: Nothing to be done for 'all'.
->>>>>>> 7d462de5dd09a2dfd464f776135310a0695be60b
