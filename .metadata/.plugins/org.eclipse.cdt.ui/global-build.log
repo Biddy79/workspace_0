@@ -1,4 +1,4 @@
-15:01:20 **** Incremental Build of configuration Debug for project Function Types ****
+16:34:41 **** Incremental Build of configuration Debug for project Function Types ****
 make all 
 Building file: ../src/Function Types.cpp
 Invoking: GCC C++ Compiler
@@ -14,6 +14,6 @@ Invoking: GCC C++ Linker
 g++  -o "Function Types"  ./src/Function\ Types.o   
 Finished building target: Function Types
  
-15:01:23 **** Incremental Build of configuration Debug for project Function Types ****
+16:34:45 **** Incremental Build of configuration Debug for project Function Types ****
 make all 
 make: Nothing to be done for 'all'.

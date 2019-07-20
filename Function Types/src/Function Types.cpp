@@ -15,7 +15,7 @@ using namespace std;
 
 //using check function as funtion pointer
 bool check(string& test){
-	return test.size() == 3;
+	return test.size() == 5;
 }
 
 void run(function<bool(string&)> check){
@@ -54,7 +54,10 @@ int main() {
 	count = count_if(vec.begin(), vec.end(), check1);
 	cout << count << endl;
 
+
 	run(lambda);
+	run(check);
+	run(check1);
 
 	return 0;
 }
