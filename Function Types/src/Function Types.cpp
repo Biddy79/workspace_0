@@ -18,6 +18,7 @@ bool check(string& test){
 	return test.size() == 5;
 }
 
+//function template type
 void run(function<bool(string&)> check){
 	string test = "stars";
 	cout << check(test) << endl;
@@ -54,10 +55,14 @@ int main() {
 	count = count_if(vec.begin(), vec.end(), check1);
 	cout << count << endl;
 
-
+	// function template type
 	run(lambda);
 	run(check);
 	run(check1);
+
+	function<int (int, int)> add = [](int one, int two ){return one + two;};
+	cout << add(10, 10) << endl;
+
 
 	return 0;
 }
