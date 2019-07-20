@@ -18,6 +18,11 @@ bool check(string& test){
 	return test.size() == 3;
 }
 
+void run(function<bool(string&)> check){
+	string test = "stars";
+	cout << check(test) << endl;
+}
+
 class Check{
 public:
 	//functor overloaded() operator //
@@ -36,9 +41,10 @@ int main() {
 
 	vector<string> vec {"one", "two", "three"};
 
+	auto lambda = [size](string test) {return test.size() == size;};
+
 	//pasing lambda to count_if function
-	int count = count_if(vec.begin(), vec.end(),
-			[size](string test){return test.size() == size;});
+	int count = count_if(vec.begin(), vec.end(), lambda);
 	cout << count << endl;
 
 	//passing function pointer check to count_if function
@@ -48,7 +54,7 @@ int main() {
 	count = count_if(vec.begin(), vec.end(), check1);
 	cout << count << endl;
 
-
+	run(lambda);
 
 	return 0;
 }

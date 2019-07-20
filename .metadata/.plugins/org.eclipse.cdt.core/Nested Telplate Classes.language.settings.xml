@@ -123,12 +123,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__CHAR_BIT__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DBL_DECIMAL_DIG__" value="17">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -256,12 +250,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__DEC32_EPSILON__" value="1E-6DF">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__DEC32_MANT_DIG__" value="7">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -891,6 +879,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__FLT_MIN__" value="7">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__FLT_RADIX__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1198,6 +1192,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__INT_FAST64_MAX__" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__INT_FAST64_TYPE__" value="8">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1527,6 +1527,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SHRT_MAX__" value="int">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__SHRT_MAX__" value="0x7fff">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1546,12 +1552,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SIG_ATOMIC_MIN__" value="(-__SIG_ATOMIC_MAX__ - 1)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SIG_ATOMIC_TYPE__" value="int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
