@@ -24,6 +24,15 @@ void run(function<bool(string&)> check){
 	cout << check(test) << endl;
 }
 
+////////////test test////////////////////////
+void run2(function<int()> cal){
+	cout << "coming from run2 function " << cal() << endl;
+}
+
+
+////////////////////////////////////////////
+
+
 class Check{
 public:
 	//functor overloaded() operator //
@@ -31,7 +40,8 @@ public:
 		return test.size() == 5;
 	}
 }
-//instantiateing and object of Check class to be used as paramitor in count_if function below
+//instantiateing and object of Check class to be used as
+//paramitor in count_if function below
 check1;
 
 
@@ -43,6 +53,18 @@ int main() {
 	vector<string> vec {"one", "two", "three"};
 
 	auto lambda = [size](string test) {return test.size() == size;};
+
+	////////////////TEST TEST/////////////////////////
+	int a = 10;
+	int b = 50;
+	auto lambda2 = [a, b](){return a+b;};
+
+	cout << lambda2() << endl;
+    //passing lambda2 to run2 function
+	run2(lambda2);
+
+
+	//////////////////////////////////////////////////////
 
 	//pasing lambda to count_if function
 	int count = count_if(vec.begin(), vec.end(), lambda);
@@ -62,6 +84,8 @@ int main() {
 
 	function<int (int, int)> add = [](int one, int two ){return one + two;};
 	cout << add(10, 10) << endl;
+
+
 
 
 	return 0;
