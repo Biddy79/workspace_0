@@ -1,3 +1,6 @@
-20:21:19 **** Incremental Build of configuration Debug for project Function Types ****
+16:06:00 **** Incremental Build of configuration Debug for project Test Area 0 ****
+make all 
+make: Nothing to be done for 'all'.
+16:06:01 **** Incremental Build of configuration Debug for project Test Area 0 ****
 make all 
 make: Nothing to be done for 'all'.
