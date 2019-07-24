@@ -27,7 +27,11 @@ public:
 	const Machine& operator=(const Machine& rhs);
 
 	//methods
-   virtual void print();
+    virtual void print();
+
+
+    //destructor
+   virtual ~Machine();
 
 };
 

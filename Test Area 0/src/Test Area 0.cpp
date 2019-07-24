@@ -34,13 +34,25 @@ int main() {
 
 	cout << "============================== \n" << endl;
 
-	Machine m3(c1);
+	//m3 set = to m2 using copy constructor // as been set = to m1 se above
+	Machine m3(m2);
 	m3.print();
 
+	cout << "============================== \n" << endl;
 
+	//using vertual method to set a machine object to a car refreance
+	Machine *m4 = &c1;
+	cout << "using virtual method " << flush; m4->print();
 
+	cout << "============================== \n" << endl;
 
+	//set a new machine = to car called print method from car
+	//using virtual key word
+	Machine *m5 = new Car("vw","2");
+    m5->print();
+	delete m5;
 
+	cout << "============================== \n" << endl;
 
 	return 0;
 }

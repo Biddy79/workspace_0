@@ -37,3 +37,8 @@ const Machine& Machine::operator=(const Machine& rhs){
 void Machine::print(){
   std::cout << "Machine id:" << id << std::endl;
 }
+
+//destructor
+Machine::~Machine(){
+	std::cout << "Destructor running " << std::endl;
+}
