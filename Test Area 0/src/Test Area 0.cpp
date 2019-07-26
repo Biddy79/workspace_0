@@ -12,6 +12,11 @@
 
 using namespace std;
 
+Machine* getMachine(){
+	Machine* m6 = new Machine;
+	return m6;
+}
+
 int main() {
 
 	Machine m1("0");
@@ -53,6 +58,14 @@ int main() {
 	delete m5;
 
 	cout << "============================== \n" << endl;
+
+	Machine* newMachine = getMachine();
+
+	cout << "Setting newMachine = to return type of getMachine(): " << endl;
+	newMachine->print();
+	//make sur eto delete here!!!
+	delete newMachine;
+
 
 	return 0;
 }
