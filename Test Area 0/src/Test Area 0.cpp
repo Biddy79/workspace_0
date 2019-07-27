@@ -17,7 +17,14 @@ Machine* getMachine(){
 	return m6;
 }
 
+//passing lambda in to test true or false
+bool check(string str){
+	  return str == "Ford";
+
+}
+
 int main() {
+
 
 	Machine m1("0");
 	m1.print();
@@ -26,6 +33,15 @@ int main() {
 
 	Car c1("B.M.W", "1");
 	c1.print();
+
+	cout << "============================== \n" << endl;
+
+	//using lambda to set c1 make then output using print
+	auto lambda = [&c1](string make){c1.setMake(make); c1.print();
+	return make;};
+
+	//pasing lambda to check to test for true or false
+	check(lambda("Ford"));
 
 	cout << "============================== \n" << endl;
 
@@ -58,13 +74,15 @@ int main() {
 	delete m5;
 
 	cout << "============================== \n" << endl;
-
+	//setting Machine pointer to getMachine fuction which creates
+	//a new Machine and returnes it
 	Machine* newMachine = getMachine();
-
 	cout << "Setting newMachine = to return type of getMachine(): " << endl;
 	newMachine->print();
-	//make sur eto delete here!!!
+	//make sure to delete here!!! as new key word as been used in getMachine
+	//fuction above!!!
 	delete newMachine;
+
 
 
 	return 0;

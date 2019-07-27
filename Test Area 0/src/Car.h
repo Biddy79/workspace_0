@@ -24,6 +24,8 @@ public:
 	//Methods
 	virtual void print();
 
+	void setMake(std::string newMake);
+
 
 
 };

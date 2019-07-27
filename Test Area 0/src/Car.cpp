@@ -20,3 +20,7 @@ Car::Car(std::string make, std::string id):make(make),id(id) {
 void Car::print(){
 	std::cout << "Car make:" << make << " Car id:" << id <<std::endl;
 }
+
+void Car::setMake(std::string newMake){
+	make = newMake;
+}
