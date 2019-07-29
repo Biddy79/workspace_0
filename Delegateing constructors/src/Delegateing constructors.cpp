@@ -8,12 +8,20 @@
 
 #include <iostream>
 #include "Machine.h"
+#include "Car.h"
 using namespace std;
 
 int main() {
 
-	Machine m1;
 
+	Machine m1;
+	cout << endl;
+
+
+	Car c1;
+	cout << endl;
+
+	Machine m2;
 
 
 

@@ -1,12 +1,3 @@
-11:23:37 **** Incremental Build of configuration Debug for project Delegateing constructors ****
+18:42:42 **** Incremental Build of configuration Debug for project Delegateing constructors ****
 make all 
-Building file: ../src/Delegateing constructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Delegateing constructors.d" -MT"src/Delegateing\ constructors.d" -o "src/Delegateing constructors.o" "../src/Delegateing constructors.cpp"
-Finished building: ../src/Delegateing constructors.cpp
- 
-Building target: Delegateing constructors
-Invoking: GCC C++ Linker
-g++  -o "Delegateing constructors"  ./src/Delegateing\ constructors.o ./src/Machine.o   
-Finished building target: Delegateing constructors
- 
+make: Nothing to be done for 'all'.

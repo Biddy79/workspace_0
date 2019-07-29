@@ -13,11 +13,12 @@
 class Machine {
 private:
 	int id {0};
-	std::string name {"Car"};
+	std::string name;
 
 public:
 	Machine();
 	Machine(std::string name);
+	Machine(std::string name, int id);
 
 
 };
