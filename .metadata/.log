@@ -6944,3 +6944,16 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Test Area 0/s
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-07-27 10:03:21.411
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 2.45 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-07-29 11:14:52.578 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-07-29 11:15:01.852
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-29 11:16:30.710
+!MESSAGE Indexed 'Delegateing constructors' (1 sources, 174 headers) in 7.79 sec: 13,497 declarations; 21,261 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

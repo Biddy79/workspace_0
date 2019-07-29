@@ -1,15 +1,12 @@
-13:29:47 **** Incremental Build of configuration Debug for project Test Area 0 ****
+11:23:37 **** Incremental Build of configuration Debug for project Delegateing constructors ****
 make all 
-Building file: ../src/Test Area 0.cpp
+Building file: ../src/Delegateing constructors.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test Area 0.d" -MT"src/Test\ Area\ 0.d" -o "src/Test Area 0.o" "../src/Test Area 0.cpp"
-Finished building: ../src/Test Area 0.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Delegateing constructors.d" -MT"src/Delegateing\ constructors.d" -o "src/Delegateing constructors.o" "../src/Delegateing constructors.cpp"
+Finished building: ../src/Delegateing constructors.cpp
  
-Building target: Test Area 0
+Building target: Delegateing constructors
 Invoking: GCC C++ Linker
-g++  -o "Test Area 0"  ./src/Car.o ./src/Machine.o ./src/Test\ Area\ 0.o   
-Finished building target: Test Area 0
+g++  -o "Delegateing constructors"  ./src/Delegateing\ constructors.o ./src/Machine.o   
+Finished building target: Delegateing constructors
  
-13:29:50 **** Incremental Build of configuration Debug for project Test Area 0 ****
-make all 
-make: Nothing to be done for 'all'.
