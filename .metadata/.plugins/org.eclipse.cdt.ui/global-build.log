@@ -1,3 +1,15 @@
-18:42:42 **** Incremental Build of configuration Debug for project Delegateing constructors ****
+13:34:12 **** Incremental Build of configuration Debug for project Elision and Optimization ****
+make all 
+Building file: ../src/Elision and Optimization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Elision and Optimization.d" -MT"src/Elision\ and\ Optimization.d" -o "src/Elision and Optimization.o" "../src/Elision and Optimization.cpp"
+Finished building: ../src/Elision and Optimization.cpp
+ 
+Building target: Elision and Optimization
+Invoking: GCC C++ Linker
+g++  -o "Elision and Optimization"  ./src/Elision\ and\ Optimization.o ./src/Test.o   
+Finished building target: Elision and Optimization
+ 
+13:34:16 **** Incremental Build of configuration Debug for project Elision and Optimization ****
 make all 
 make: Nothing to be done for 'all'.

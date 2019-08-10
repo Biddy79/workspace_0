@@ -16,7 +16,7 @@
 		<item key="stubSelected0" value="true"/>
 		<item key="stubVirtual1" value="true"/>
 		<item key="stubInline1" value="false"/>
-		<item key="stubSelected1" value="false"/>
+		<item key="stubSelected1" value="true"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="askReindex.detail" value="0"/>
