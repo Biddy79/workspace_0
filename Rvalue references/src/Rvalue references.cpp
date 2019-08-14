@@ -15,7 +15,12 @@ public:
 		cout << "Test constructor" << endl;
 	}
 
+	Test(int i){
+		cout << "Pramitorized constructor" << endl;
+	}
+
 	friend ostream& operator<<(ostream& out,const Test& test);
+
 
 };
 
@@ -49,7 +54,7 @@ int main() {
 	/*cannot set a pointer to address of getTest() as it reutuns a
 	temporary value this makes it an Rvalue
 
-	Test *pT2 = &getTest();     */
+	Test *pT2 = getTest();     */
 
 	/*can set a pointer to address of value and incerment its value with ++
 	this will work as the prefix increment operator it will incerment the
@@ -67,6 +72,32 @@ int main() {
 
 	//this will not work
 	//int *pValue5 = (&value) + 3;
+
+
+	///////////Refrence Rvalues and Lvalues//////////////////////////////
+
+	//&rTest and t1 are Lvalue and therfor can be binded
+	Test &rTest = t1;
+	cout << rTest << endl;
+
+	//dose not work!! &rTets2 is Lvalue but getTest is Rvalue
+	//Test &rTest2 = getTest();
+
+	//The exception to this is to make Test const
+	//The return value life of getTest() will continue
+	//untill &rTets2 is destroyed
+	const Test &rTest2 = getTest();
+	cout << rTest2 << endl;
+
+	//Using const in the copy constructor allows us to do the following
+	//the copy constructor uses a const Lvalue refreance and Test(1) is Rvalue as it as no name
+	//and t3 is a Lvalue
+	//side note had to use pramitorized constructor or copiler see t3(Test(1)); as a function
+	Test t3(Test(1));
+	cout << t3 << endl;
+
+
+
 
 
 

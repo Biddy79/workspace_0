@@ -1,6 +1,12 @@
-19:40:56 **** Incremental Build of configuration Debug for project Rvalue references ****
+15:39:55 **** Incremental Build of configuration Debug for project Rvalue references ****
 make all 
-make: Nothing to be done for 'all'.
-19:40:59 **** Incremental Build of configuration Debug for project Rvalue references ****
-make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Rvalue references.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Rvalue references.d" -MT"src/Rvalue\ references.d" -o "src/Rvalue references.o" "../src/Rvalue references.cpp"
+Finished building: ../src/Rvalue references.cpp
+ 
+Building target: Rvalue references
+Invoking: GCC C++ Linker
+g++  -o "Rvalue references"  ./src/Rvalue\ references.o   
+Finished building target: Rvalue references
+ 
