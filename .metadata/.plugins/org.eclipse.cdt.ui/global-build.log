@@ -1,12 +1,13 @@
-15:39:55 **** Incremental Build of configuration Debug for project Rvalue references ****
+13:46:44 **** Incremental Build of configuration Debug for project Rvalue references ****
 make all 
 Building file: ../src/Rvalue references.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Rvalue references.d" -MT"src/Rvalue\ references.d" -o "src/Rvalue references.o" "../src/Rvalue references.cpp"
-Finished building: ../src/Rvalue references.cpp
- 
-Building target: Rvalue references
-Invoking: GCC C++ Linker
-g++  -o "Rvalue references"  ./src/Rvalue\ references.o   
-Finished building target: Rvalue references
- 
+../src/Rvalue references.cpp: In function ‘int main()’:
+../src/Rvalue references.cpp:117:9: error: ‘t6’ declared as reference but not initialized
+  Test &&t6;
+         ^~
+../src/Rvalue references.cpp:117:9: warning: unused variable ‘t6’ [-Wunused-variable]
+src/subdir.mk:18: recipe for target 'src/Rvalue references.o' failed
+make: *** [src/Rvalue references.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
