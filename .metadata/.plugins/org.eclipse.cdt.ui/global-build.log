@@ -1,13 +1,15 @@
-13:46:44 **** Incremental Build of configuration Debug for project Rvalue references ****
+11:31:37 **** Incremental Build of configuration Debug for project Move constructor ****
 make all 
-Building file: ../src/Rvalue references.cpp
+Building file: ../src/Test.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Rvalue references.d" -MT"src/Rvalue\ references.d" -o "src/Rvalue references.o" "../src/Rvalue references.cpp"
-../src/Rvalue references.cpp: In function ‘int main()’:
-../src/Rvalue references.cpp:117:9: error: ‘t6’ declared as reference but not initialized
-  Test &&t6;
-         ^~
-../src/Rvalue references.cpp:117:9: warning: unused variable ‘t6’ [-Wunused-variable]
-src/subdir.mk:18: recipe for target 'src/Rvalue references.o' failed
-make: *** [src/Rvalue references.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Move constructor
+Invoking: GCC C++ Linker
+g++  -o "Move constructor"  ./src/Move\ constructor.o ./src/Test.o   
+Finished building target: Move constructor
+ 
+11:31:39 **** Incremental Build of configuration Debug for project Move constructor ****
+make all 
+make: Nothing to be done for 'all'.
