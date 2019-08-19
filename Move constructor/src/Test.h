@@ -20,6 +20,9 @@ public:
 	Test(const Test& other);
 	Test& operator=(const Test& rhs);
 
+	//move constructor
+	Test(Test &&test);
+
 	friend std::ostream& operator<<(std::ostream& out, Test& test);
 
 

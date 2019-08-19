@@ -23,6 +23,12 @@ Test& Test::operator=(const Test& rhs){
 	 return *this;
 }
 
+Test::Test(Test &&other){
+	std::cout << "Rvalue constructor" << std::endl;
+	 other.m_pBuffer = m_pBuffer;
+	 other.m_pBuffer = nullptr;
+
+}
 
 std::ostream& operator<<(std::ostream& out, Test& test){
 	out << "Hello from Test class";

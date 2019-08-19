@@ -8,12 +8,13 @@
 
 #include <iostream>
 #include "Test.h"
+#include <vector>
 using namespace std;
 
 int main() {
 
-	Test t1;
-	cout << t1 << endl;
+	vector<Test> vec;
+	vec.push_back(Test());
 
 
 	return 0;
