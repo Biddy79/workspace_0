@@ -11,11 +11,17 @@
 #include <vector>
 using namespace std;
 
+Test getTest(){
+	return Test();
+}
+
 int main() {
 
 	vector<Test> vec;
 	vec.push_back(Test());
 
+	Test t1;
+	t1 = getTest();
 
 	return 0;
 }

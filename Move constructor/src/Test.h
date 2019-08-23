@@ -12,7 +12,7 @@
 
 class Test {
 private:
-	int* m_pBuffer;
+	int* m_pBuffer{nullptr};
 	static const int SIZE{100};
 
 public:
@@ -22,6 +22,9 @@ public:
 
 	//move constructor
 	Test(Test &&test);
+
+	//move assinment operator
+	Test& operator=(Test&& rhs);
 
 	friend std::ostream& operator<<(std::ostream& out, Test& test);
 

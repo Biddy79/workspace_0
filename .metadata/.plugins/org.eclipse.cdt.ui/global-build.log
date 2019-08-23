@@ -1,4 +1,4 @@
-20:10:43 **** Incremental Build of configuration Debug for project Move constructor ****
+18:06:15 **** Incremental Build of configuration Debug for project Move constructor ****
 make all 
 Building file: ../src/Test.cpp
 Invoking: GCC C++ Compiler
@@ -10,6 +10,6 @@ Invoking: GCC C++ Linker
 g++  -o "Move constructor"  ./src/Move\ constructor.o ./src/Test.o   
 Finished building target: Move constructor
  
-20:10:50 **** Incremental Build of configuration Debug for project Move constructor ****
+18:06:16 **** Incremental Build of configuration Debug for project Move constructor ****
 make all 
 make: Nothing to be done for 'all'.
