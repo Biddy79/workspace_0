@@ -9,6 +9,7 @@
 #include <memory.h>
 
 Test::Test() {
+	std::cout << "Constructor" << std::endl;
 	m_pBuffer = new int[SIZE]{};
 }
 
@@ -27,7 +28,7 @@ Test& Test::operator=(const Test& rhs){
 
 Test::Test(Test &&other){
 	 std::cout << "Move constructor" << std::endl;
-	 other.m_pBuffer = m_pBuffer;
+	 m_pBuffer = other.m_pBuffer;
 	 //need to set to nullptr so that m_pBuffer is not deleted
 	 other.m_pBuffer = nullptr;
 
@@ -47,6 +48,7 @@ std::ostream& operator<<(std::ostream& out, Test& test){
 }
 
 Test::~Test() {
+	std::cout << "Destructor " << std::endl;
 	 delete [] m_pBuffer;
 }
 

@@ -4859,6 +4859,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__DECIMAL_DIG__" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__DECIMAL_DIG__" value="21">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -5922,12 +5928,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__LONG_LONG_WIDTH__" value="64">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__LONG_MAX__" value="0x7fffffffffffffffL">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

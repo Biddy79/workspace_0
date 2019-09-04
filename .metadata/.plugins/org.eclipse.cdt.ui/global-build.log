@@ -1,15 +1,12 @@
-18:06:15 **** Incremental Build of configuration Debug for project Move constructor ****
+18:57:58 **** Incremental Build of configuration Debug for project Static Cast ****
 make all 
-Building file: ../src/Test.cpp
+Building file: ../src/Static Cast.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
-Finished building: ../src/Test.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static Cast.d" -MT"src/Static\ Cast.d" -o "src/Static Cast.o" "../src/Static Cast.cpp"
+Finished building: ../src/Static Cast.cpp
  
-Building target: Move constructor
+Building target: Static Cast
 Invoking: GCC C++ Linker
-g++  -o "Move constructor"  ./src/Move\ constructor.o ./src/Test.o   
-Finished building target: Move constructor
+g++  -o "Static Cast"  ./src/Static\ Cast.o   
+Finished building target: Static Cast
  
-18:06:16 **** Incremental Build of configuration Debug for project Move constructor ****
-make all 
-make: Nothing to be done for 'all'.
