@@ -1,12 +1,15 @@
-18:57:58 **** Incremental Build of configuration Debug for project Static Cast ****
+13:32:44 **** Incremental Build of configuration Debug for project Perfect Forwarding ****
 make all 
-Building file: ../src/Static Cast.cpp
+Building file: ../src/Perfect Forwarding.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static Cast.d" -MT"src/Static\ Cast.d" -o "src/Static Cast.o" "../src/Static Cast.cpp"
-Finished building: ../src/Static Cast.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Perfect Forwarding.d" -MT"src/Perfect\ Forwarding.d" -o "src/Perfect Forwarding.o" "../src/Perfect Forwarding.cpp"
+Finished building: ../src/Perfect Forwarding.cpp
  
-Building target: Static Cast
+Building target: Perfect Forwarding
 Invoking: GCC C++ Linker
-g++  -o "Static Cast"  ./src/Static\ Cast.o   
-Finished building target: Static Cast
+g++  -o "Perfect Forwarding"  ./src/Perfect\ Forwarding.o   
+Finished building target: Perfect Forwarding
  
+13:32:46 **** Incremental Build of configuration Debug for project Perfect Forwarding ****
+make all 
+make: Nothing to be done for 'all'.

@@ -10000,3 +10000,70 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-09-04 18:25:47.708
 !MESSAGE Indexed 'Reinterpret cast' (1 sources, 0 headers) in 0.047 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2019-09-07 13:05:20.859 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-07 13:05:26.469
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:05.304
+!MESSAGE Indexed 'Delegateing constructors' (3 sources, 176 headers) in 4.91 sec: 13,518 declarations; 21,332 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:07.399
+!MESSAGE Indexed 'Initializer list' (2 sources, 181 headers) in 2.09 sec: 14,928 declarations; 24,545 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:09.576
+!MESSAGE Indexed 'Constructors and memory' (2 sources, 178 headers) in 2.18 sec: 13,768 declarations; 21,655 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:11.443
+!MESSAGE Indexed 'Elision and Optimization' (2 sources, 181 headers) in 1.86 sec: 14,941 declarations; 24,572 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:12.825
+!MESSAGE Indexed 'Static Cast' (1 sources, 174 headers) in 1.38 sec: 13,508 declarations; 21,300 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:14.311
+!MESSAGE Indexed 'Test Area 0' (3 sources, 176 headers) in 1.48 sec: 13,549 declarations; 21,484 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:15.953
+!MESSAGE Indexed 'Move constructor' (2 sources, 184 headers) in 1.64 sec: 15,188 declarations; 24,910 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:17.332
+!MESSAGE Indexed 'Rvalue references' (1 sources, 174 headers) in 1.38 sec: 13,523 declarations; 21,371 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:18.603
+!MESSAGE Indexed 'Lambda expressions' (1 sources, 174 headers) in 1.27 sec: 13,550 declarations; 21,421 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:19.834
+!MESSAGE Indexed 'Fstring main' (2 sources, 175 headers) in 1.23 sec: 13,529 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:21.046
+!MESSAGE Indexed 'Nested template class Two' (1 sources, 175 headers) in 1.21 sec: 13,534 declarations; 21,387 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:22.326
+!MESSAGE Indexed 'c++ 11 Initialization' (1 sources, 180 headers) in 1.28 sec: 14,928 declarations; 24,565 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:23.608
+!MESSAGE Indexed 'Range based loops' (1 sources, 180 headers) in 1.28 sec: 14,918 declarations; 24,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:25.626
+!MESSAGE Indexed 'Function Types' (1 sources, 197 headers) in 2.02 sec: 20,854 declarations; 33,119 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.0019%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:26.831
+!MESSAGE Indexed 'Object Initialization' (1 sources, 174 headers) in 1.2 sec: 13,508 declarations; 21,281 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:27.969
+!MESSAGE Indexed 'Dynamic cast' (1 sources, 174 headers) in 1.14 sec: 13,505 declarations; 21,285 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:29.020
+!MESSAGE Indexed 'Reinterpret cast' (1 sources, 174 headers) in 1.05 sec: 13,508 declarations; 21,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:06:30.093
+!MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.07 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-07 13:08:06.144
+!MESSAGE Indexed 'Perfect Forwarding' (1 sources, 174 headers) in 1.49 sec: 13,497 declarations; 21,261 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
