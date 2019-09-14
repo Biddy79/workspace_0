@@ -1,15 +1,3 @@
-13:32:44 **** Incremental Build of configuration Debug for project Perfect Forwarding ****
-make all 
-Building file: ../src/Perfect Forwarding.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Perfect Forwarding.d" -MT"src/Perfect\ Forwarding.d" -o "src/Perfect Forwarding.o" "../src/Perfect Forwarding.cpp"
-Finished building: ../src/Perfect Forwarding.cpp
- 
-Building target: Perfect Forwarding
-Invoking: GCC C++ Linker
-g++  -o "Perfect Forwarding"  ./src/Perfect\ Forwarding.o   
-Finished building target: Perfect Forwarding
- 
-13:32:46 **** Incremental Build of configuration Debug for project Perfect Forwarding ****
+16:04:23 **** Incremental Build of configuration Debug for project Auto pointer ****
 make all 
 make: Nothing to be done for 'all'.

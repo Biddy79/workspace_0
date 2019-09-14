@@ -4943,6 +4943,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__FLT128_MAX_EXP__" value="16384">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__FLT128_MAX__" value="1.18973149535723176508575932662800702e+4932F128">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -5208,12 +5214,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT64X_MIN_EXP__" value="(-16381)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT64X_MIN__" value="0xff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6155,12 +6155,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="16384">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -6456,6 +6450,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__UINT_LEAST64_TYPE__" value="long unsigned int">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__UINT_LEAST8_MAX__" value="0xff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
