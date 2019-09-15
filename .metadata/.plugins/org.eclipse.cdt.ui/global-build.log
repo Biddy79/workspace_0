@@ -1,3 +1,15 @@
-16:04:23 **** Incremental Build of configuration Debug for project Auto pointer ****
+11:27:06 **** Incremental Build of configuration Debug for project Shared pointer ****
+make all 
+Building file: ../src/Shared pointer.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Shared pointer.d" -MT"src/Shared\ pointer.d" -o "src/Shared pointer.o" "../src/Shared pointer.cpp"
+Finished building: ../src/Shared pointer.cpp
+ 
+Building target: Shared pointer
+Invoking: GCC C++ Linker
+g++  -o "Shared pointer"  ./src/Shared\ pointer.o   
+Finished building target: Shared pointer
+ 
+11:27:09 **** Incremental Build of configuration Debug for project Shared pointer ****
 make all 
 make: Nothing to be done for 'all'.
