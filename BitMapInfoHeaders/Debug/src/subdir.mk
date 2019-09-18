@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/BitMapInfoHeader.cpp 
+../src/BitMapInfoHeaders.cpp 
 
 OBJS += \
-./src/BitMapInfoHeader.o 
+./src/BitMapInfoHeaders.o 
 
 CPP_DEPS += \
-./src/BitMapInfoHeader.d 
+./src/BitMapInfoHeaders.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

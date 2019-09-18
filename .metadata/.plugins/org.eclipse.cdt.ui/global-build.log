@@ -1,3 +1,15 @@
-17:29:28 **** Incremental Build of configuration Debug for project BitMapFIleHeaders ****
+09:36:51 **** Incremental Build of configuration Debug for project BitMapInfoHeaders ****
+make all 
+Building file: ../src/BitMapInfoHeaders.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BitMapInfoHeaders.d" -MT"src/BitMapInfoHeaders.o" -o "src/BitMapInfoHeaders.o" "../src/BitMapInfoHeaders.cpp"
+Finished building: ../src/BitMapInfoHeaders.cpp
+ 
+Building target: BitMapInfoHeaders
+Invoking: GCC C++ Linker
+g++  -o "BitMapInfoHeaders"  ./src/BitMapInfoHeaders.o   
+Finished building target: BitMapInfoHeaders
+ 
+09:36:58 **** Incremental Build of configuration Debug for project BitMapInfoHeaders ****
 make all 
 make: Nothing to be done for 'all'.
