@@ -9,9 +9,9 @@
 		<item key="updateReferences" value="true"/>
 	</section>
 	<section name="NewClassWizardPage">
-		<item key="namespaceSelected" value="false"/>
+		<item key="namespaceSelected" value="true"/>
 		<item key="testFileSelected" value="false"/>
-		<item key="namespace" value=""/>
+		<item key="namespace" value="caveofprogramming"/>
 		<item key="stubInline0" value="false"/>
 		<item key="stubSelected0" value="true"/>
 		<item key="stubVirtual1" value="true"/>
@@ -39,5 +39,22 @@
 		<item key="y" value="116"/>
 		<item key="width" value="414"/>
 		<item key="height" value="743"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NamespaceSelectionDialogSettings">
+		<item key="show_namespaces" value="true"/>
+		<item key="show_classes" value="false"/>
+		<item key="show_structs" value="false"/>
+		<item key="show_typedefs" value="false"/>
+		<item key="show_enums" value="false"/>
+		<item key="show_unions" value="false"/>
+		<item key="show_functions" value="false"/>
+		<item key="show_variables" value="false"/>
+		<item key="show_enumerators" value="false"/>
+		<item key="show_macros" value="false"/>
+		<item key="show_lowlevel" value="false"/>
+		<item key="x" value="683"/>
+		<item key="y" value="152"/>
+		<item key="width" value="466"/>
+		<item key="height" value="682"/>
 	</section>
 </section>
