@@ -16,7 +16,7 @@ using namespace std;
 
 namespace caveofprogramming{
 
-struct BitMapInfoHearder{
+struct BitMapInfoHeader{
 
 	int32_t headerSize{40};
 	int32_t width;

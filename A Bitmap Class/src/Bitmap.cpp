@@ -6,6 +6,10 @@
  */
 
 #include "Bitmap.h"
+#include "BitMapFileHeader.h"
+#include "BitMapInfoHeader.h"
+
+using namespace caveofprogramming;
 
 namespace caveofprogramming {
 
@@ -19,6 +23,16 @@ void Bitmap::setPixel(int x, int y, uint8_t red, uint8_t green, uint8_t blue){
 }
 
 bool Bitmap::write(string filename){
+
+	BitMapFileHeader fileHeader;
+	BitMapInfoHeader infoHeader;
+
+	fileHeader.fileSize = sizeof(BitMapFileHeader) + sizeof(BitMapInfoHeader) + m_width * m_height * 3;
+	fileHeader.dataOffset = sizeof(BitMapFileHeader) + sizeof(BitMapInfoHeader);
+
+	infoHeader.width = m_width;
+	infoHeader.height = m_height;
+
 	return false;
 }
 

@@ -1,4 +1,4 @@
-14:49:18 **** Incremental Build of configuration Debug for project A Bitmap Class ****
+18:21:25 **** Incremental Build of configuration Debug for project A Bitmap Class ****
 make all 
 Building file: ../src/Bitmap.cpp
 Invoking: GCC C++ Compiler
