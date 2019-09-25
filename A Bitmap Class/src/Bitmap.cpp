@@ -9,7 +9,7 @@
 
 namespace caveofprogramming {
 
-Bitmap::Bitmap(int width, int height):m_width(width), m_height(height) {
+Bitmap::Bitmap(int width, int height):m_width(width), m_height(height), m_pPixels(new uint8_t[width*height*3]{}){
 	// TODO Auto-generated constructor stub
 
 }
