@@ -56,8 +56,8 @@ void Bitmap::setPixel(int x, int y, uint8_t red, uint8_t green, uint8_t blue){
 	pPixel += (y * 3) * m_width + (x * 3);
 
 	pPixel[0] = blue;
-	pPixel[0] = green;
-	pPixel[0] = red;
+	pPixel[1] = green;
+	pPixel[2] = red;
 }
 
 Bitmap::~Bitmap() {
