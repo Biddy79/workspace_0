@@ -37,8 +37,10 @@ int main() {
 
 			fractal[y*WIDTH + x] = iterations;
 
+			// adding 1 to histogram arry for evey pixel that is not = to 1000
 			if(iterations != Mandelbrot::MAX_ITERATIONS){
 				histogram[iterations]++;
+
 			}
 
 			uint8_t color = (uint8_t)(256 * (double)iterations/Mandelbrot::MAX_ITERATIONS);
@@ -52,6 +54,15 @@ int main() {
 
 		}
 	}
+
+	cout << endl;
+
+	for(int i=0; i <= Mandelbrot::MAX_ITERATIONS; i++){
+		cout << i << " " <<  histogram[i] << endl;
+
+	}
+
+	cout << endl;
 
 	bitmap.write("test.bmp");
 
