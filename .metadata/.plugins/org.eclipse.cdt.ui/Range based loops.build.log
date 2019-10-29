@@ -1,6 +1,6 @@
-20:07:57 **** Incremental Build of configuration Debug for project Range based loops ****
+14:01:06 **** Build of configuration Debug for project Range based loops ****
 make all 
 make: Nothing to be done for 'all'.
 
-20:07:58 Build Finished. 0 errors, 0 warnings. (took 375ms)
+14:01:06 Build Finished. 0 errors, 0 warnings. (took 415ms)
 
