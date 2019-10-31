@@ -12,24 +12,18 @@ using namespace std;
 
 int main() {
 
-	int iterations = 0;
+	int iterations = 3;
 
-	int histogram [5] {1, 2, 3, 4, 5};
+	int histogram [5]{0};
 
-	for(int i=0; i<5; i++){
-		 histogram[iterations]++;
-	}
+	cout << histogram[3] << endl;
 
 	for(int i=0; i<5; i++){
-		cout << "INDEX:" << i << " " << histogram[i] << endl;
+	   histogram[iterations]++;
+
 	}
 
-
-
-
-
-
-
+	cout << histogram[3] << endl;
 
 	return 0;
 }

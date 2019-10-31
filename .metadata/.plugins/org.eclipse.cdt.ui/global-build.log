@@ -1,15 +1,6 @@
-14:44:22 **** Incremental Build of configuration Debug for project TestArea 1 ****
+10:56:57 **** Incremental Build of configuration Debug for project TestArea 1 ****
 make all 
-Building file: ../src/TestArea 1.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestArea 1.d" -MT"src/TestArea\ 1.d" -o "src/TestArea 1.o" "../src/TestArea 1.cpp"
-Finished building: ../src/TestArea 1.cpp
- 
-Building target: TestArea 1
-Invoking: GCC C++ Linker
-g++  -o "TestArea 1"  ./src/TestArea\ 1.o   
-Finished building target: TestArea 1
- 
-14:44:24 **** Incremental Build of configuration Debug for project TestArea 1 ****
+make: Nothing to be done for 'all'.
+10:56:58 **** Incremental Build of configuration Debug for project TestArea 1 ****
 make all 
 make: Nothing to be done for 'all'.
