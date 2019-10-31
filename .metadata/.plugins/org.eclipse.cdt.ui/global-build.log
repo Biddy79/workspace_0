@@ -1,4 +1,4 @@
-09:31:24 **** Incremental Build of configuration Debug for project A Bitmap Class ****
+11:13:44 **** Build of configuration Debug for project A Bitmap Class ****
 make all 
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
@@ -10,9 +10,3 @@ Invoking: GCC C++ Linker
 g++  -o "A Bitmap Class"  ./src/Bitmap.o ./src/Mandelbrot.o ./src/main.o   
 Finished building target: A Bitmap Class
  
-09:31:28 **** Incremental Build of configuration Debug for project A Bitmap Class ****
-make all 
-make: Nothing to be done for 'all'.
-09:31:36 **** Incremental Build of configuration Debug for project A Bitmap Class ****
-make all 
-make: Nothing to be done for 'all'.
