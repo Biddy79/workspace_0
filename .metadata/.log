@@ -12442,3 +12442,23 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/A Bitmap Clas
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-10-31 11:14:17.972
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 0.968 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-10-31 11:49:16.802 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-31 11:49:20.387
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-11-01 12:42:26.146 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-01 12:42:31.856
+!MESSAGE Using Apache MINA sshd as ssh client.
