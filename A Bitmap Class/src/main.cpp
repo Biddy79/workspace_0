@@ -12,8 +12,11 @@
 #include <memory>
 #include "Bitmap.h"
 #include "Mandelbrot.h"
+#include "ZoomList.h"
+
 using namespace std;
 using namespace caveofprogramming;
+
 int main() {
 
 	int const WIDTH = 800;
