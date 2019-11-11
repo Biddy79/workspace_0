@@ -29,6 +29,10 @@ int main() {
 	double min = 999999;
 	double max = -999999;
 
+	ZoomList zoomList(WIDTH, HEIGHT);
+
+	zoomList.add(Zoom(WIDTH/2, HEIGHT/2, 4.0));
+
 	unique_ptr<int[]> histogram(new int[Mandelbrot::MAX_ITERATIONS] { 0 });
 	unique_ptr<int[]> fractal(new int[WIDTH * HEIGHT] { 0 });
 
