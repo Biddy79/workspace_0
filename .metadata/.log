@@ -305,3 +305,13 @@ java.lang.IllegalArgumentException
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-11-11 10:55:49.115
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 174 headers) in 1.07 sec: 13,534 declarations; 21,408 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-11-22 11:17:29.907 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-22 11:17:46.903
+!MESSAGE Using Apache MINA sshd as ssh client.
