@@ -13,6 +13,7 @@
 #include "Bitmap.h"
 #include "Mandelbrot.h"
 #include "ZoomList.h"
+#include "FractalCreator.h"
 
 using namespace std;
 using namespace caveofprogramming;
@@ -32,7 +33,6 @@ int main() {
 	zoomList.add(Zoom(WIDTH/2, HEIGHT/2, 4.0/WIDTH));
 	zoomList.add(Zoom(307, HEIGHT - 186, 0.1));
 	zoomList.add(Zoom(326, HEIGHT - 402, 0.1));
-	zoomList.add(Zoom(312, HEIGHT - 212, 0.1));
 
 	unique_ptr<int[]> histogram(new int[Mandelbrot::MAX_ITERATIONS] { 0 });
 	unique_ptr<int[]> fractal(new int[WIDTH * HEIGHT] { 0 });
@@ -79,7 +79,7 @@ int main() {
 					hue += ((double) histogram[i]) / total;
 				}
 
-				green = pow(255, hue);
+				green = hue * 255;
 
 			}
 
