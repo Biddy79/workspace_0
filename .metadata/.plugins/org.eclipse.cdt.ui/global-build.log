@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 10:56:57 **** Incremental Build of configuration Debug for project TestArea 1 ****
 make all 
 make: Nothing to be done for 'all'.
 10:56:58 **** Incremental Build of configuration Debug for project TestArea 1 ****
+=======
+14:54:38 **** Incremental Build of configuration Debug for project Mandelbrot ****
+>>>>>>> a4f2a90674c414ddcb1acfb3e91fcfa11762ca09
 make all 
 make: Nothing to be done for 'all'.
