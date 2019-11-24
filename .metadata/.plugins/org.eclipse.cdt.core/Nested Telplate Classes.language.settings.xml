@@ -2491,12 +2491,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DEC_EVAL_METHOD__" value="2">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DEPRECATED" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -2528,12 +2522,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT128_DECIMAL_DIG__" value="36">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT128_DENORM_MIN__" value="6.47517511943802511092443895822764655e-4966F128">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2653,12 +2641,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__FLT32X_MANT_DIG__" value="53">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__FLT32X_MAX_10_EXP__" value="308">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -2738,6 +2720,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT32_MANT_DIG__" value="24">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__FLT32_MANT_DIG__" value="53">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2930,12 +2918,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT64_MIN_10_EXP__" value="(-307)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT64_MIN_EXP__" value="(-1021)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3373,6 +3355,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__INT_FAST32_MAX__" value="16384">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__INT_FAST32_TYPE__" value="long int">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3517,6 +3505,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__LDBL_DENORM_MIN__" value="6.47517511943802511092443895822764655e-4966F128">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__LDBL_DIG__" value="18">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3554,12 +3548,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__LDBL_MAX_10_EXP__" value="4932">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__LDBL_MAX_EXP__" value="16384">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4016,6 +4004,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__UINTMAX_MAX__" value="0xffffffffffffffffUL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__UINTMAX_MAX__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8853,6 +8847,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__cpp_return_type_deduction" value="201304">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__cpp_rtti" value="199711">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -8998,12 +8998,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__x86_64__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="linux" value="201304">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

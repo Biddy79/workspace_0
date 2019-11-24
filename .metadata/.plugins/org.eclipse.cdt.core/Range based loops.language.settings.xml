@@ -4661,12 +4661,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DBL_EPSILON__" value="((double)2.22044604925031308084726333618164062e-16L)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DBL_HAS_DENORM__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -4950,12 +4944,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT128_MAX__" value="1.18973149535723176508575932662800702e+4932F128">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT128_MIN_10_EXP__" value="(-4931)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6179,6 +6167,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SIZE_TYPE__" value="((double)2.22044604925031308084726333618164062e-16L)">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__SIZE_WIDTH__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -6510,6 +6504,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__WINT_MIN__" value="0U">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__WINT_MIN__" value="(-4931)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -7695,6 +7695,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__GLIBCXX_TYPE_INT_N_0" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__GNUC_MINOR__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -7738,12 +7744,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__GXX_RTTI" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_WEAK__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -7858,12 +7858,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__INTPTR_WIDTH__" value="64">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__INT_FAST16_MAX__" value="0x7fffffffffffffffL">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8362,6 +8356,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SIZE_TYPE__" value="long unsigned int">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__SIZE_TYPE__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

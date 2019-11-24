@@ -684,3 +684,101 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.egit.core 1 0 2019-11-23 17:34:41.205
 !MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-11-23 18:29:19.595 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-23 18:29:23.108
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:29:55.233
+!MESSAGE Indexed 'Mandelbrot' (5 sources, 238 headers) in 11.3 sec: 25,131 declarations; 46,121 references; 0 unresolved inclusions; 0 syntax errors; 40 unresolved names (0.056%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:29:57.421
+!MESSAGE Indexed 'Elision and Optimization' (2 sources, 181 headers) in 2.18 sec: 14,941 declarations; 24,572 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:29:59.081
+!MESSAGE Indexed 'Perfect Forwarding' (1 sources, 174 headers) in 1.66 sec: 13,506 declarations; 21,275 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:00.729
+!MESSAGE Indexed 'Lambda expressions' (1 sources, 174 headers) in 1.64 sec: 13,550 declarations; 21,421 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:02.363
+!MESSAGE Indexed 'Fstring main' (2 sources, 175 headers) in 1.63 sec: 13,529 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:03.900
+!MESSAGE Indexed 'Nested template class Two' (1 sources, 175 headers) in 1.53 sec: 13,534 declarations; 21,387 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:05.117
+!MESSAGE Indexed 'BitMapInfoHeaders' (1 sources, 175 headers) in 1.21 sec: 13,509 declarations; 21,268 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.017%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:06.589
+!MESSAGE Indexed 'c++ 11 Initialization' (1 sources, 180 headers) in 1.47 sec: 14,928 declarations; 24,565 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:08.001
+!MESSAGE Indexed 'Range based loops' (1 sources, 180 headers) in 1.41 sec: 14,918 declarations; 24,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:09.511
+!MESSAGE Indexed 'Bind' (1 sources, 183 headers) in 1.51 sec: 15,983 declarations; 24,269 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:10.729
+!MESSAGE Indexed 'Dynamic cast' (1 sources, 174 headers) in 1.22 sec: 13,505 declarations; 21,285 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:11.941
+!MESSAGE Indexed 'Reinterpret cast' (1 sources, 174 headers) in 1.21 sec: 13,508 declarations; 21,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:13.603
+!MESSAGE Indexed 'Auto pointer' (1 sources, 197 headers) in 1.66 sec: 17,755 declarations; 27,291 references; 0 unresolved inclusions; 0 syntax errors; 3 unresolved names (0.0067%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:14.702
+!MESSAGE Indexed 'Delegateing constructors' (3 sources, 176 headers) in 1.09 sec: 13,518 declarations; 21,332 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:16.007
+!MESSAGE Indexed 'Initializer list' (2 sources, 181 headers) in 1.3 sec: 14,928 declarations; 24,545 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:17.151
+!MESSAGE Indexed 'Constructors and memory' (2 sources, 178 headers) in 1.14 sec: 13,768 declarations; 21,655 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:18.248
+!MESSAGE Indexed 'Static Cast' (1 sources, 174 headers) in 1.09 sec: 13,508 declarations; 21,300 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:19.314
+!MESSAGE Indexed 'BitMapFIleHeaders' (1 sources, 175 headers) in 1.06 sec: 13,502 declarations; 21,266 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:20.485
+!MESSAGE Indexed 'Test Area 0' (3 sources, 176 headers) in 1.17 sec: 13,549 declarations; 21,484 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:21.766
+!MESSAGE Indexed 'Move constructor' (2 sources, 184 headers) in 1.28 sec: 15,188 declarations; 24,910 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:22.849
+!MESSAGE Indexed 'Rvalue references' (1 sources, 174 headers) in 1.08 sec: 13,523 declarations; 21,371 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:24.374
+!MESSAGE Indexed 'Shared pointer' (1 sources, 197 headers) in 1.51 sec: 17,748 declarations; 27,146 references; 0 unresolved inclusions; 1 syntax errors; 148 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:26.095
+!MESSAGE Indexed 'Function Types' (1 sources, 197 headers) in 1.72 sec: 20,854 declarations; 33,120 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:27.142
+!MESSAGE Indexed 'Object Initialization' (1 sources, 174 headers) in 1.04 sec: 13,508 declarations; 21,281 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:28.181
+!MESSAGE Indexed 'Fractal Creator - Hello World' (1 sources, 174 headers) in 1.03 sec: 13,497 declarations; 21,261 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 18:30:29.193
+!MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.01 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-11-24 16:03:13.493 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-24 16:03:19.005
+!MESSAGE Using Apache MINA sshd as ssh client.
