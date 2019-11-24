@@ -420,7 +420,11 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.egit.core 1 0 2019-11-23 14:50:33.634
 !MESSAGE Using Apache MINA sshd as ssh client.
+<<<<<<< HEAD
 !SESSION 2019-10-28 15:58:28.830 -----------------------------------------------
+=======
+!SESSION 2019-11-23 17:02:45.421 -----------------------------------------------
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
 eclipse.buildId=4.11.0.I20190307-0500
 java.version=11.0.4
 java.vendor=Ubuntu
@@ -428,6 +432,7 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.core 1 0 2019-10-28 15:58:33.700
 !MESSAGE Using Apache MINA sshd as ssh client.
 
@@ -437,6 +442,17 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 !MESSAGE Cannot determine URI for '/A Bitmap Class/src/main.cpp'.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Cannot determine URI for '/A Bitmap Class/src/main.cpp'.
+=======
+!ENTRY org.eclipse.egit.core 1 0 2019-11-23 17:02:51.653
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 4 2019-11-23 17:02:55.279
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2019-11-23 17:02:55.279
+!MESSAGE Cannot determine URI for '/Mandelbrot/src/main.cpp'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Mandelbrot/src/main.cpp'.
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
 	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
 	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
 	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
@@ -577,6 +593,7 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/A Bitmap Clas
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2019-10-28 15:58:37.655
 !MESSAGE Cannot determine URI for '/A Bitmap Class/src/main.cpp'.
 
@@ -658,6 +675,86 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/A Bitmap Clas
 !ENTRY org.eclipse.cdt.core 1 0 2019-10-28 15:59:51.222
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.01 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 !SESSION 2019-10-29 11:32:13.385 -----------------------------------------------
+=======
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2019-11-23 17:02:55.281
+!MESSAGE Cannot determine URI for '/Mandelbrot/src/main.cpp'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:32.918
+!MESSAGE Indexed 'Elision and Optimization' (2 sources, 181 headers) in 6.51 sec: 14,941 declarations; 24,572 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:36.295
+!MESSAGE Indexed 'Perfect Forwarding' (1 sources, 174 headers) in 3.36 sec: 13,506 declarations; 21,275 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:39.374
+!MESSAGE Indexed 'Lambda expressions' (1 sources, 174 headers) in 3.07 sec: 13,550 declarations; 21,421 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:42.286
+!MESSAGE Indexed 'Fstring main' (2 sources, 175 headers) in 2.91 sec: 13,529 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:44.866
+!MESSAGE Indexed 'Nested template class Two' (1 sources, 175 headers) in 2.56 sec: 13,534 declarations; 21,387 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:47.449
+!MESSAGE Indexed 'BitMapInfoHeaders' (1 sources, 175 headers) in 2.57 sec: 13,509 declarations; 21,274 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:50.341
+!MESSAGE Indexed 'c++ 11 Initialization' (1 sources, 180 headers) in 2.88 sec: 14,928 declarations; 24,565 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:52.879
+!MESSAGE Indexed 'Range based loops' (1 sources, 180 headers) in 2.53 sec: 14,918 declarations; 24,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:55.726
+!MESSAGE Indexed 'Bind' (1 sources, 183 headers) in 2.85 sec: 15,983 declarations; 24,269 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:03:58.229
+!MESSAGE Indexed 'Dynamic cast' (1 sources, 174 headers) in 2.5 sec: 13,505 declarations; 21,285 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:00.549
+!MESSAGE Indexed 'Reinterpret cast' (1 sources, 174 headers) in 2.31 sec: 13,508 declarations; 21,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:04.449
+!MESSAGE Indexed 'Auto pointer' (1 sources, 197 headers) in 3.9 sec: 17,755 declarations; 27,292 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:08.523
+!MESSAGE Indexed 'Delegateing constructors' (3 sources, 176 headers) in 4.04 sec: 13,518 declarations; 21,332 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:11.667
+!MESSAGE Indexed 'Initializer list' (2 sources, 181 headers) in 3.13 sec: 14,928 declarations; 24,545 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:14.604
+!MESSAGE Indexed 'Constructors and memory' (2 sources, 178 headers) in 2.92 sec: 13,768 declarations; 21,655 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:17.557
+!MESSAGE Indexed 'Static Cast' (1 sources, 174 headers) in 2.95 sec: 13,508 declarations; 21,300 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:19.409
+!MESSAGE Indexed 'BitMapFIleHeaders' (1 sources, 175 headers) in 1.82 sec: 13,502 declarations; 21,266 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:21.848
+!MESSAGE Indexed 'Test Area 0' (3 sources, 176 headers) in 2.44 sec: 13,549 declarations; 21,484 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:25.097
+!MESSAGE Indexed 'Move constructor' (2 sources, 184 headers) in 3.24 sec: 15,188 declarations; 24,910 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:27.113
+!MESSAGE Indexed 'Rvalue references' (1 sources, 174 headers) in 2 sec: 13,523 declarations; 21,371 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:29.861
+!MESSAGE Indexed 'Shared pointer' (1 sources, 197 headers) in 2.73 sec: 17,755 declarations; 27,285 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:32.864
+!MESSAGE Indexed 'Function Types' (1 sources, 197 headers) in 2.99 sec: 20,854 declarations; 33,120 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:34.404
+!MESSAGE Indexed 'Object Initialization' (1 sources, 174 headers) in 1.53 sec: 13,508 declarations; 21,281 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:35.931
+!MESSAGE Indexed 'Fractal Creator - Hello World' (1 sources, 174 headers) in 1.52 sec: 13,497 declarations; 21,261 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-23 17:04:37.449
+!MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.51 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-11-23 17:26:20.129 -----------------------------------------------
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
 eclipse.buildId=4.11.0.I20190307-0500
 java.version=11.0.4
 java.vendor=Ubuntu
@@ -665,12 +762,18 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.core 1 0 2019-10-29 11:32:19.110
 !MESSAGE Using Apache MINA sshd as ssh client.
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-10-29 11:34:31.393
 !MESSAGE Indexed 'TestArea 1' (1 sources, 174 headers) in 3.41 sec: 13,497 declarations; 21,261 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 !SESSION 2019-10-29 12:49:58.513 -----------------------------------------------
+=======
+!ENTRY org.eclipse.egit.core 1 0 2019-11-23 17:26:26.608
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-11-23 17:29:31.720 -----------------------------------------------
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
 eclipse.buildId=4.11.0.I20190307-0500
 java.version=11.0.4
 java.vendor=Ubuntu
@@ -678,9 +781,15 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.core 1 0 2019-10-29 12:50:04.269
 !MESSAGE Using Apache MINA sshd as ssh client.
 !SESSION 2019-10-29 16:55:09.126 -----------------------------------------------
+=======
+!ENTRY org.eclipse.egit.core 1 0 2019-11-23 17:30:12.929
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-11-23 17:34:35.547 -----------------------------------------------
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
 eclipse.buildId=4.11.0.I20190307-0500
 java.version=11.0.4
 java.vendor=Ubuntu
@@ -688,6 +797,7 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.core 1 0 2019-10-29 16:55:14.823
 !MESSAGE Using Apache MINA sshd as ssh client.
 !SESSION 2019-10-31 10:50:44.998 -----------------------------------------------
@@ -849,3 +959,7 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-11-23 16:57:51.797
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 8.51 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+=======
+!ENTRY org.eclipse.egit.core 1 0 2019-11-23 17:34:41.205
+!MESSAGE Using Apache MINA sshd as ssh client.
+>>>>>>> 4db6e94f1324d89d81f741a562a0410848742a19
