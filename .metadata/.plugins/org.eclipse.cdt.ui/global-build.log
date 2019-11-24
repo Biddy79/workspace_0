@@ -1,6 +1,42 @@
-11:30:16 **** Incremental Build of configuration Debug for project Mandelbrot ****
+14:04:08 **** Incremental Build of configuration Debug for project Mandelbrot ****
 make all 
-make: Nothing to be done for 'all'.
-11:30:23 **** Incremental Build of configuration Debug for project Mandelbrot ****
-make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/FractalCreator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FractalCreator.d" -MT"src/FractalCreator.o" -o "src/FractalCreator.o" "../src/FractalCreator.cpp"
+Finished building: ../src/FractalCreator.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:25:16: error: ‘WIDTH’ was not declared in this scope
+  Bitmap bitmap(WIDTH, HEIGHT);
+                ^~~~~
+../src/main.cpp:25:23: error: ‘HEIGHT’ was not declared in this scope
+  Bitmap bitmap(WIDTH, HEIGHT);
+                       ^~~~~~
+../src/main.cpp:41:4: error: ‘fractal’ was not declared in this scope
+    fractal[y * WIDTH + x] = iterations;
+    ^~~~~~~
+../src/main.cpp:41:4: note: suggested alternative: ‘fmaxmagl’
+    fractal[y * WIDTH + x] = iterations;
+    ^~~~~~~
+    fmaxmagl
+../src/main.cpp:44:5: error: ‘histogram’ was not declared in this scope
+     histogram[iterations]++;
+     ^~~~~~~~~
+../src/main.cpp:55:12: error: ‘histogram’ was not declared in this scope
+   total += histogram[i];
+            ^~~~~~~~~
+../src/main.cpp:67:21: error: ‘fractal’ was not declared in this scope
+    int iterations = fractal[y * WIDTH + x];
+                     ^~~~~~~
+../src/main.cpp:74:23: error: ‘histogram’ was not declared in this scope
+      hue += ((double) histogram[i]) / total;
+                       ^~~~~~~~~
+../src/main.cpp:91:13: error: ‘histogram’ was not declared in this scope
+   cout  <<  histogram[i] << " " << flush;
+             ^~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
