@@ -57,4 +57,14 @@
 		<item key="width" value="466"/>
 		<item key="height" value="682"/>
 	</section>
+	<section name="org.eclipse.cdt.internal.ui.text.QuickOutline">
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_WIDTH" value="500"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_HEIGHT" value="440"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_X_ORIGIN" value="1642"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_Y_ORIGIN" value="619"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_LOCATION" value="true"/>
+	</section>
+	<section name="CRenameRefactoringInputPage">
+	</section>
 </section>
