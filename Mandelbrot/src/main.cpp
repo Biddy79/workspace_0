@@ -46,13 +46,10 @@ int main() {
 
 			fractal[y * WIDTH + x] = iterations;
 
-<<<<<<< HEAD
-			histogram[iterations]++;
-=======
 			if (iterations != Mandelbrot::MAX_ITERATIONS) {
 				histogram[iterations]++;
 			}
->>>>>>> a4f2a90674c414ddcb1acfb3e91fcfa11762ca09
+
 
 		}
 	}
