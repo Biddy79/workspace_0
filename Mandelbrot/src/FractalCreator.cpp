@@ -10,6 +10,15 @@
 
 namespace caveofprogramming {
 
+void FractalCreator::run(string name){
+	    addZoom(Zoom(307, m_height - 186, 0.1));
+		addZoom(Zoom(326, m_height - 402, 0.1));
+		calculateIterations();
+		calculateTotalIteration();
+		drawFractal();
+		writeBitmap("test.bmp");
+}
+
 FractalCreator::FractalCreator(int width, int height):m_width(width),m_height(height),
 								m_histogram(new int[Mandelbrot::MAX_ITERATIONS] { 0 }),
 								m_fractal(new int[m_width * m_height] { 0 }),
@@ -52,6 +61,9 @@ FractalCreator::~FractalCreator() {
     }
 
 	void FractalCreator::drawFractal(){
+
+		RGB startcolor(0,0,0);
+	    RGB endcolor(0,255,0);
 
 		for (int y = 0; y < m_height; y++) {
 			for (int x = 0; x < m_width; x++) {

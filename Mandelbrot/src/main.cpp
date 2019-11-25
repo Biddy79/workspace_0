@@ -8,28 +8,28 @@
 
 #include <iostream>
 
-
-
-
-
 #include "FractalCreator.h"
+#include "RGB.h"
 
 using namespace std;
 using namespace caveofprogramming;
 
 int main() {
 
-	int height = 600;
+
+
+	/*RGB rgb1(4, 5, 6);
+	RGB rgb2(1, 2, 3);
+
+	RGB rgb3 = rgb1 - rgb2;
+
+	cout << rgb3.m_r << ", " << rgb3.m_g << ", " << rgb3.m_b << endl;
+
+	operator-(rgb1, rgb2);*/
 
 	FractalCreator fractalCreator(800, 600);
 
-
-	fractalCreator.addZoom(Zoom(307, height - 186, 0.1));
-	fractalCreator.addZoom(Zoom(326, height - 402, 0.1));
-	fractalCreator.calculateIterations();
-	fractalCreator.calculateTotalIteration();
-	fractalCreator.drawFractal();
-	fractalCreator.writeBitmap("test.bmp");
+	fractalCreator.run("test.bmp");
 
 	cout << "finished." << endl;
 

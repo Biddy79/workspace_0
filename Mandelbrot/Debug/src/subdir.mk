@@ -7,6 +7,7 @@ CPP_SRCS += \
 ../src/Bitmap.cpp \
 ../src/FractalCreator.cpp \
 ../src/Mandelbrot.cpp \
+../src/RGB.cpp \
 ../src/ZoomList.cpp \
 ../src/main.cpp 
 
@@ -14,6 +15,7 @@ OBJS += \
 ./src/Bitmap.o \
 ./src/FractalCreator.o \
 ./src/Mandelbrot.o \
+./src/RGB.o \
 ./src/ZoomList.o \
 ./src/main.o 
 
@@ -21,6 +23,7 @@ CPP_DEPS += \
 ./src/Bitmap.d \
 ./src/FractalCreator.d \
 ./src/Mandelbrot.d \
+./src/RGB.d \
 ./src/ZoomList.d \
 ./src/main.d 
 
