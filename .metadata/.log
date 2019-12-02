@@ -1985,3 +1985,174 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 !ENTRY org.eclipse.egit.core 1 0 2019-12-02 10:47:54.440
 >>>>>>> 242250a0fc8c8dfa5f13410ee47c918528e79a69
 !MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-02 16:51:41.283 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-12-02 16:51:46.225
+!MESSAGE Unable to load resource file:/home/adam/eclips-workspace/workspace_0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/home/adam/eclips-workspace/workspace_0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/home/adam/eclips-workspace/workspace_0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:285)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:261)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:168)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/home/adam/eclips-workspace/workspace_0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/home/adam/eclips-workspace/workspace_0/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:324)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 24 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-12-02 16:51:46.227
+!MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
+!STACK 0
+java.lang.Exception
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:173)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:589)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-02 16:51:47.374
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:29.209
+!MESSAGE Indexed 'Mandelbrot' (6 sources, 239 headers) in 5.71 sec: 25,159 declarations; 46,197 references; 0 unresolved inclusions; 0 syntax errors; 39 unresolved names (0.055%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:31.417
+!MESSAGE Indexed 'Elision and Optimization' (2 sources, 181 headers) in 2.2 sec: 14,941 declarations; 24,572 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:33.225
+!MESSAGE Indexed 'Perfect Forwarding' (1 sources, 174 headers) in 1.8 sec: 13,506 declarations; 21,275 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:34.963
+!MESSAGE Indexed 'Lambda expressions' (1 sources, 174 headers) in 1.73 sec: 13,550 declarations; 21,421 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:36.477
+!MESSAGE Indexed 'Fstring main' (2 sources, 175 headers) in 1.51 sec: 13,529 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:37.907
+!MESSAGE Indexed 'Nested template class Two' (1 sources, 175 headers) in 1.42 sec: 13,534 declarations; 21,387 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:39.365
+!MESSAGE Indexed 'BitMapInfoHeaders' (1 sources, 175 headers) in 1.45 sec: 13,509 declarations; 21,274 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:40.929
+!MESSAGE Indexed 'c++ 11 Initialization' (1 sources, 180 headers) in 1.56 sec: 14,928 declarations; 24,565 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:42.542
+!MESSAGE Indexed 'Range based loops' (1 sources, 180 headers) in 1.61 sec: 14,918 declarations; 24,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:44.312
+!MESSAGE Indexed 'Bind' (1 sources, 183 headers) in 1.77 sec: 15,983 declarations; 24,269 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:45.877
+!MESSAGE Indexed 'Dynamic cast' (1 sources, 174 headers) in 1.56 sec: 13,505 declarations; 21,285 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:47.390
+!MESSAGE Indexed 'Reinterpret cast' (1 sources, 175 headers) in 1.51 sec: 13,492 declarations; 21,731 references; 0 unresolved inclusions; 6 syntax errors; 49 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:49.398
+!MESSAGE Indexed 'Auto pointer' (1 sources, 197 headers) in 2.01 sec: 17,755 declarations; 27,283 references; 0 unresolved inclusions; 0 syntax errors; 11 unresolved names (0.024%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:50.762
+!MESSAGE Indexed 'Delegateing constructors' (3 sources, 176 headers) in 1.35 sec: 13,518 declarations; 21,332 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:52.339
+!MESSAGE Indexed 'Initializer list' (2 sources, 180 headers) in 1.58 sec: 14,929 declarations; 24,597 references; 1 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:53.525
+!MESSAGE Indexed 'Constructors and memory' (2 sources, 178 headers) in 1.18 sec: 13,768 declarations; 21,655 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:54.702
+!MESSAGE Indexed 'Static Cast' (1 sources, 174 headers) in 1.18 sec: 13,508 declarations; 21,300 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:55.869
+!MESSAGE Indexed 'BitMapFIleHeaders' (1 sources, 175 headers) in 1.16 sec: 13,502 declarations; 21,266 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:57.350
+!MESSAGE Indexed 'TestArea 1' (1 sources, 197 headers) in 1.48 sec: 17,749 declarations; 27,262 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:58.526
+!MESSAGE Indexed 'Test Area 0' (3 sources, 176 headers) in 1.17 sec: 13,549 declarations; 21,484 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:52:59.860
+!MESSAGE Indexed 'Move constructor' (2 sources, 184 headers) in 1.33 sec: 15,188 declarations; 24,910 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:00.964
+!MESSAGE Indexed 'Rvalue references' (1 sources, 174 headers) in 1.1 sec: 13,523 declarations; 21,371 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:02.791
+!MESSAGE Indexed 'Shared pointer' (1 sources, 197 headers) in 1.83 sec: 17,755 declarations; 27,285 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:04.795
+!MESSAGE Indexed 'Function Types' (1 sources, 196 headers) in 2 sec: 20,854 declarations; 33,119 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:05.932
+!MESSAGE Indexed 'Object Initialization' (1 sources, 174 headers) in 1.13 sec: 13,508 declarations; 21,281 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:07.082
+!MESSAGE Indexed 'Fractal Creator - Hello World' (1 sources, 173 headers) in 1.13 sec: 13,029 declarations; 20,988 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:08.194
+!MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.11 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

@@ -12,6 +12,7 @@
 #include <cstdint>
 #include <math.h>
 #include <memory>
+#include <vector>
 #include "Bitmap.h"
 #include "ZoomList.h"
 #include "Mandelbrot.h"
@@ -31,8 +32,8 @@ private:
 	ZoomList m_zoomList;
 	int m_total{0};
 
-
-
+	vector <int> m_ranges;
+	vector <RGB> m_colors;
 
 private:
 	void calculateIterations();
@@ -42,6 +43,7 @@ private:
 
 public:
 	FractalCreator(int width, int height);
+	void addRange(double rangeEnd, const RGB &rgb);
 	void addZoom(const Zoom& zoom);
 	virtual ~FractalCreator();
 	void run(string name);
