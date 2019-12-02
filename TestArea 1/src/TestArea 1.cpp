@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : A.cpp
+// Name        : TestArea.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,26 +7,23 @@
 //============================================================================
 
 #include <iostream>
-
-
-#include "FractalCreator.h"
-#include "RGB.h"
-#include "Zoom.h"
-
+#include <memory>
 using namespace std;
-using namespace caveofprogramming;
 
 int main() {
 
+	int iterations = 3;
 
-	FractalCreator fractalCreator(800, 600);
+	int histogram [5]{0};
 
-	fractalCreator.addZoom(Zoom(295, 202, 0.1));
-	fractalCreator.addZoom(Zoom(312, 304, 0.1));
+	cout << histogram[3] << endl;
 
-	fractalCreator.run("test.bmp");
+	for(int i=0; i<5; i++){
+	   histogram[iterations]++;
 
-	cout << "finished." << endl;
+	}
+
+	cout << histogram[3] << endl;
 
 	return 0;
 }

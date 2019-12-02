@@ -9,21 +9,42 @@
 #define FRACTALCREATOR_H_
 
 #include <string>
-#include "Zoom.h"
+#include <cstdint>
+#include <math.h>
+#include <memory>
+#include "Bitmap.h"
+#include "ZoomList.h"
+#include "Mandelbrot.h"
+#include "RGB.h"
 
 using namespace std;
 
 namespace caveofprogramming {
 
 class FractalCreator {
+private:
+	int m_width;
+	int m_height;
+	unique_ptr<int[]> m_histogram;
+	unique_ptr<int[]> m_fractal;
+	Bitmap m_bitmap;
+	ZoomList m_zoomList;
+	int m_total{0};
+
+
+
+
+private:
+	void calculateIterations();
+	void calculateTotalIteration();
+	void drawFractal();
+	void writeBitmap(string name);
+
 public:
 	FractalCreator(int width, int height);
-	virtual ~FractalCreator();
-
-	void calculateIterations();
-	void drawFractal();
 	void addZoom(const Zoom& zoom);
-	void writeBitmap(string name);
+	virtual ~FractalCreator();
+	void run(string name);
 };
 
 } /* namespace caveofprogramming */

@@ -17,3 +17,4 @@ org.eclipse.launchbar.core.descriptorType.default\:Nested\ template\ class\ Two/
 org.eclipse.launchbar.core.descriptorType.default\:Nested\ template\ class\ Two/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Test\ 0/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Test\ 0/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TestArea\ 1/activeLaunchMode=run
