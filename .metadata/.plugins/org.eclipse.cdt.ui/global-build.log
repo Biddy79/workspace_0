@@ -1,4 +1,4 @@
-19:44:05 **** Incremental Build of configuration Debug for project Mandelbrot ****
+11:57:35 **** Incremental Build of configuration Debug for project Mandelbrot ****
 make all 
 Building file: ../src/FractalCreator.cpp
 Invoking: GCC C++ Compiler
@@ -10,3 +10,6 @@ Invoking: GCC C++ Linker
 g++  -o "Mandelbrot"  ./src/Bitmap.o ./src/FractalCreator.o ./src/Mandelbrot.o ./src/RGB.o ./src/ZoomList.o ./src/main.o   
 Finished building target: Mandelbrot
  
+11:57:40 **** Incremental Build of configuration Debug for project Mandelbrot ****
+make all 
+make: Nothing to be done for 'all'.

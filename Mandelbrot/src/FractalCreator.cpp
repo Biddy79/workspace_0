@@ -11,8 +11,7 @@
 namespace caveofprogramming {
 
 void FractalCreator::run(string name){
-	    addZoom(Zoom(307, m_height - 186, 0.1));
-		addZoom(Zoom(326, m_height - 402, 0.1));
+
 		calculateIterations();
 		calculateTotalIteration();
 		drawFractal();
@@ -63,7 +62,8 @@ FractalCreator::~FractalCreator() {
 	void FractalCreator::drawFractal(){
 
 		RGB startcolor(0,0,0);
-	    RGB endcolor(0,255,0);
+	    RGB endcolor(12,76,150);
+	    RGB colorDiff = endcolor - startcolor;
 
 		for (int y = 0; y < m_height; y++) {
 			for (int x = 0; x < m_width; x++) {
@@ -82,7 +82,9 @@ FractalCreator::~FractalCreator() {
 						hue += ((double) m_histogram[i]) / m_total;
 					}
 
-					green = hue * 255;
+					red = startcolor.m_r + colorDiff.m_r * hue;
+					green = startcolor.m_g + colorDiff.m_g * hue;
+					blue = startcolor.m_b + colorDiff.m_b * hue;
 
 				}
 
