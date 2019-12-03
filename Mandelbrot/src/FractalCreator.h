@@ -34,10 +34,14 @@ private:
 
 	vector <int> m_ranges;
 	vector <RGB> m_colors;
+	vector <int> m_rangeTotals;
+
+	bool m_bGotFirstRange{false};
 
 private:
 	void calculateIterations();
 	void calculateTotalIteration();
+	void calculateRnageTotals();
 	void drawFractal();
 	void writeBitmap(string name);
 

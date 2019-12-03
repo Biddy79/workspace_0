@@ -6,6 +6,7 @@
  */
 
 #include "FractalCreator.h"
+#include <iostream>
 
 
 namespace caveofprogramming {
@@ -14,6 +15,7 @@ void FractalCreator::run(string name){
 
 		calculateIterations();
 		calculateTotalIteration();
+		calculateRnageTotals();
 		drawFractal();
 		writeBitmap("test.bmp");
 }
@@ -21,7 +23,13 @@ void FractalCreator::run(string name){
 void FractalCreator::addRange(double rangeEnd, const RGB &rgb){
 		m_ranges.push_back(rangeEnd*Mandelbrot::MAX_ITERATIONS);
 		m_colors.push_back(rgb);
-	};
+
+		if(m_bGotFirstRange) {
+			m_rangeTotals.push_back(0);
+		}
+
+		m_bGotFirstRange = true;
+	}
 
 	void FractalCreator::addZoom(const Zoom& zoom){
 		m_zoomList.add(zoom);
@@ -59,6 +67,25 @@ FractalCreator::~FractalCreator() {
     			}
     		}
 
+    }
+
+    void FractalCreator::calculateRnageTotals(){
+
+    	int rangeIndex = 0;
+
+    	   for(int i=0; i<Mandelbrot::MAX_ITERATIONS; i++){
+    	    	int pixels = m_histogram[i];
+
+    	    	if(i >= m_ranges[rangeIndex +1]){
+    	    		rangeIndex++;
+    	    	}
+
+    	    	m_rangeTotals[rangeIndex] += pixels;
+    	    }
+
+    	for(int value: m_rangeTotals){
+    			std::cout << "Range totals: " << value << std::endl;
+    			}
     }
 
     void FractalCreator::calculateTotalIteration(){

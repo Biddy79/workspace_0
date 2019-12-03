@@ -2156,3 +2156,13 @@ java.lang.Exception
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-12-02 16:53:08.194
 !MESSAGE Indexed 'Nested Telplate Classes' (1 sources, 175 headers) in 1.11 sec: 13,533 declarations; 21,355 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-12-03 11:20:41.553 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-03 11:20:48.100
+!MESSAGE Using Apache MINA sshd as ssh client.
