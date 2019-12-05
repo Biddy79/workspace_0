@@ -45,12 +45,19 @@ private:
 	void drawFractal();
 	void writeBitmap(string name);
 
+
+
+
 public:
 	FractalCreator(int width, int height);
 	void addRange(double rangeEnd, const RGB &rgb);
 	void addZoom(const Zoom& zoom);
 	virtual ~FractalCreator();
 	void run(string name);
+
+	int getRange(int iterations) const;
+
+
 };
 
 } /* namespace caveofprogramming */
